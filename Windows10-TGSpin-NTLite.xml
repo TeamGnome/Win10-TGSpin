@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>10/19/2016 16:39</Date>
+	<Date>10/21/2016 20:08</Date>
 	<AppInfo>
 		<Version>1.2.0.4453</Version>
 		<Licensed>Yes</Licensed>
@@ -331,10 +331,10 @@
 		<Feature name="MicrosoftWindowsPowerShellV2">false</Feature>
 	</Features>
 	<AddPackages>
-		<Package>V:\Source\Windows10-TGSpin\Updates\Windows10.0-KB3199209-x64.msu</Package>
 		<Package>V:\Source\Windows10-TGSpin\Packages\Microsoft-Windows-win32calc-Package~31bf3856ad364e35~amd64~~10.0.14393.0.cab</Package>
 		<Package>V:\Source\Windows10-TGSpin\Packages\Microsoft-Windows-win32calc-Package~31bf3856ad364e35~amd64~en-US~10.0.14393.0.cab</Package>
-		<Package>V:\Source\Windows10-TGSpin\Updates\amd64fre_cumulative-update-kb3194798.msu</Package>
+		<Package>V:\Source\Windows10-TGSpin\Updates\Windows10.0-KB3199986-x64.msu</Package>
+		<Package>V:\Source\Windows10-TGSpin\Updates\amd64fre_cumulative-update-kb3197954.cab</Package>
 	</AddPackages>
 	<Drivers showHidden="true">
 		<AddDrivers></AddDrivers>
@@ -469,7 +469,7 @@
 	<ApplyOptions>
 		<AutoRelease>true</AutoRelease>
 		<AutoISO>true</AutoISO>
-		<AutoIsoFile>V:\Source\Windows10-TGSpin\Output\Win10-TeamGnome-b003.iso</AutoIsoFile>
+		<AutoIsoFile>V:\Source\Windows10-TGSpin\Output\Win10-TeamGnome-b004.iso</AutoIsoFile>
 		<AutoIsoLabel>CENA_X64FREV_EN-US_DV5</AutoIsoLabel>
 		<AutoExportImage>true</AutoExportImage>
 		<AutoExportEsd>true</AutoExportEsd>
@@ -532,6 +532,16 @@
 				<Path>mklink</Path>
 				<Params>/H C:\Windows\SysWoW64\calc.exe C:\Windows\SysWoW64\win32calc.exe</Params>
 				<Index>9</Index>
+			</Item>
+			<Item type="Command">
+				<Path>mklink</Path>
+				<Params>/H C:\Windows\System32\en-US\calc.exe.mui C:\Windows\System32\en-US\win32calc.exe.mui</Params>
+				<Index>10</Index>
+			</Item>
+			<Item type="Command">
+				<Path>mklink</Path>
+				<Params>/H C:\Windows\SysWoW64\en-US\calc.exe.mui C:\Windows\SysWoW64\en-US\win32calc.exe.mui</Params>
+				<Index>11</Index>
 			</Item>
 		</Add>
 		<Change></Change>
