@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>10/21/2016 20:08</Date>
+	<Date>11/25/2016 23:22</Date>
 	<AppInfo>
-		<Version>1.2.0.4453</Version>
+		<Version>1.2.0.4550</Version>
 		<Licensed>Yes</Licensed>
 		<Protections>Yes</Protections>
-		<Host>Windows Server 2016 Datacenter 64-bit - Server 10.0.14393.321 (en-US) - en-US</Host>
+		<Host>Windows Server 2016 Datacenter 64-bit - Server 10.0.14393.447 (en-US) - en-US</Host>
 	</AppInfo>
 	<ImageInfo>
 		<Version mode="offline">Windows 10 Enterprise 64-bit - Client 10.0.14393.0 (en-US)</Version>
@@ -36,6 +36,7 @@
 		<Component>diskquota</Component>
 		<Component>dmwappushsvc</Component>
 		<Component>domainclientssvc</Component>
+		<Component>driver_1394.inf</Component>
 		<Component>driver_61883.inf</Component>
 		<Component>driver_c_1394.inf</Component>
 		<Component>driver_c_61883.inf</Component>
@@ -70,6 +71,7 @@
 		<Component>driver_kdnic.inf</Component>
 		<Component>driver_mchgr.inf</Component>
 		<Component>driver_mgtdyn.inf</Component>
+		<Component>driver_miradisp.inf</Component>
 		<Component>driver_modemcsa.inf</Component>
 		<Component>driver_msclmd.inf</Component>
 		<Component>driver_msdv.inf</Component>
@@ -189,6 +191,7 @@
 		<Component>mediastreaming</Component>
 		<Component>messagingsvc</Component>
 		<Component>Microsoft.3DBuilder</Component>
+		<Component>Microsoft.AAD.BrokerPlugin</Component>
 		<Component>Microsoft.Advertising.Xaml</Component>
 		<Component>Microsoft.BingWeather</Component>
 		<Component>Microsoft.BioEnrollment</Component>
@@ -238,7 +241,6 @@
 		<Component>peertopeer</Component>
 		<Component>perfmon</Component>
 		<Component>perftools</Component>
-		<Component>playready</Component>
 		<Component>pos</Component>
 		<Component>printtopdf</Component>
 		<Component>provisioning</Component>
@@ -258,6 +260,8 @@
 		<Component>sharemediacpl</Component>
 		<Component>sihclient</Component>
 		<Component>simpletcp</Component>
+		<Component>skypeortc</Component>
+		<Component>smartscreen</Component>
 		<Component>smsrouter</Component>
 		<Component>snmp</Component>
 		<Component>soundsdefault</Component>
@@ -288,6 +292,7 @@
 		<Component>webclient</Component>
 		<Component>wifinetworkmanager</Component>
 		<Component>Windows.ContactSupport</Component>
+		<Component>Windows.MiracastView</Component>
 		<Component>Windows.PrintDialog</Component>
 		<Component>windowsdefender</Component>
 		<Component>winocr</Component>
@@ -297,7 +302,6 @@
 		<Component>wmitools</Component>
 		<Component>wordpad</Component>
 		<Component>wwanautoconfig</Component>
-		<Component>zipfolder</Component>
 	</RemoveComponents>
 	<Compatibility protectHidden="true">
 		<ComponentFeatures>
@@ -312,6 +316,8 @@
 			<Feature enabled="yes">Recommended-All</Feature>
 			<Feature enabled="no">Recommended-Tablet</Feature>
 			<Feature enabled="yes">USB</Feature>
+			<Feature enabled="no">USBModem</Feature>
+			<Feature enabled="no">VideoPlayback</Feature>
 			<Feature enabled="yes">VisualStudio</Feature>
 			<Feature enabled="yes">AppxSupport</Feature>
 			<Feature enabled="yes">WindowsUpdate</Feature>
@@ -327,14 +333,13 @@
 	<Features>
 		<Feature name="SMB1Protocol">false</Feature>
 		<Feature name="SmbDirect">true</Feature>
-		<Feature name="MicrosoftWindowsPowerShellV2Root">false</Feature>
-		<Feature name="MicrosoftWindowsPowerShellV2">false</Feature>
 	</Features>
 	<AddPackages>
+		<Package>V:\Source\Windows10-TGSpin\Updates\Windows10.0-KB3176936-x64.msu</Package>
+		<Package>V:\Source\Windows10-TGSpin\Updates\Windows10.0-KB3199986-x64.msu</Package>
 		<Package>V:\Source\Windows10-TGSpin\Packages\Microsoft-Windows-win32calc-Package~31bf3856ad364e35~amd64~~10.0.14393.0.cab</Package>
 		<Package>V:\Source\Windows10-TGSpin\Packages\Microsoft-Windows-win32calc-Package~31bf3856ad364e35~amd64~en-US~10.0.14393.0.cab</Package>
-		<Package>V:\Source\Windows10-TGSpin\Updates\Windows10.0-KB3199986-x64.msu</Package>
-		<Package>V:\Source\Windows10-TGSpin\Updates\amd64fre_cumulative-update-kb3197954.cab</Package>
+		<Package>V:\Source\Windows10-TGSpin\Updates\amd64fre_cumulative-update-kb3200970.msu</Package>
 	</AddPackages>
 	<Drivers showHidden="true">
 		<AddDrivers></AddDrivers>
@@ -360,7 +365,9 @@
 				<SkipAutoActivation>true</SkipAutoActivation>
 			</component>
 			<component name="Microsoft-Windows-Shell-Setup">
+				<ComputerName>*</ComputerName>
 				<ProductKey>NPPR9-FWDCX-D2C8J-H872K-2YT43</ProductKey>
+				<RegisteredOrganization>Team Gnome</RegisteredOrganization>
 			</component>
 		</settings>
 		<settings pass="windowsPE">
@@ -384,7 +391,7 @@
 					</OSImage>
 				</ImageInstall>
 				<UserData>
-					<AcceptEula>false</AcceptEula>
+					<AcceptEula>true</AcceptEula>
 					<ProductKey>
 						<Key>NPPR9-FWDCX-D2C8J-H872K-2YT43</Key>
 						<WillShowUI>OnError</WillShowUI>
@@ -397,6 +404,7 @@
 		<Machine>
 			<TweakGroup name="AppCompat">
 				<Tweak name="DisablePCA">1</Tweak>
+				<Tweak name="OnlyUseLatestCLR">1</Tweak>
 			</TweakGroup>
 			<TweakGroup name="CrashControl">
 				<Tweak name="CrashDumpEnabled">3</Tweak>
@@ -435,6 +443,7 @@
 			</TweakGroup>
 			<TweakGroup name="DesktopTweaks">
 				<Tweak name="OpenAtLogon">0</Tweak>
+				<Tweak name="ScreenSaverIsSecure">0</Tweak>
 			</TweakGroup>
 			<TweakGroup name="Explorer">
 				<Tweak name="EnableAutoTray">1</Tweak>
@@ -560,6 +569,6 @@
 		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\LaunchExplorerToThisPC.reg</Item>
 		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\MicrosoftEdgePolicies.reg</Item>
 		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\PaintDesktopVersion.reg</Item>
-		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\WindowsPhotoViewerWin10.reg</Item>
+		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\WindowsPhotoViewerWin10-Lite.reg</Item>
 	</Registry>
 </Preset>
