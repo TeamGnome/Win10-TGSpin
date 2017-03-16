@@ -1,402 +1,399 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>12/23/2016 12:22</Date>
+	<Date>03/16/2017 23:07</Date>
 	<AppInfo>
-		<Version>1.2.0.4660</Version>
+		<Version>1.3.0.4916</Version>
 		<Licensed>Yes</Licensed>
 		<Protections>Yes</Protections>
-		<Host>Windows Server 2016 Datacenter 64-bit - Server 10.0.14393.576 (en-US) - en-US</Host>
+		<Host>Windows Server 2016 Datacenter 64-bit - Server 10.0.14393.953 (en-US) - en-US</Host>
 	</AppInfo>
 	<ImageInfo>
 		<Version mode="offline">Windows 10 Enterprise 2016 LTSB 64-bit - Client 10.0.14393.0 (en-US)</Version>
 		<GUID>{C4E68303-CBB8-4ABF-83FE-B8076972D99D}</GUID>
 	</ImageInfo>
 	<RemoveComponents>
-		<Component>actioncenter</Component>
-		<Component>adamclient</Component>
-		<Component>alljoyn</Component>
-		<Component>appcompat</Component>
-		<Component>appv</Component>
-		<Component>asimov</Component>
-		<Component>assembly.net</Component>
-		<Component>autoplay</Component>
-		<Component>autoworkplacejoin</Component>
-		<Component>axinstall</Component>
-		<Component>biometricservice</Component>
-		<Component>branchcacheclient</Component>
-		<Component>briefcase</Component>
-		<Component>cdpsvc</Component>
-		<Component>ceip</Component>
-		<Component>charmap</Component>
-		<Component>deviceexperience</Component>
-		<Component>devicesync</Component>
-		<Component>diskdiagnosis</Component>
-		<Component>diskquota</Component>
-		<Component>domainclientssvc</Component>
-		<Component>driver_1394.inf</Component>
-		<Component>driver_61883.inf</Component>
-		<Component>driver_c_1394.inf</Component>
-		<Component>driver_c_61883.inf</Component>
-		<Component>driver_c_barcodescanner.inf</Component>
-		<Component>driver_c_biometric.inf</Component>
-		<Component>driver_c_cashdrawer.inf</Component>
-		<Component>driver_c_dot4.inf</Component>
-		<Component>driver_c_dot4print.inf</Component>
-		<Component>driver_c_fdc.inf</Component>
-		<Component>driver_c_floppydisk.inf</Component>
-		<Component>driver_c_infrared.inf</Component>
-		<Component>driver_c_magneticstripereader.inf</Component>
-		<Component>driver_c_mcx.inf</Component>
-		<Component>driver_c_mediumchanger.inf</Component>
-		<Component>driver_c_modem.inf</Component>
-		<Component>driver_c_pnpprinters.inf</Component>
-		<Component>driver_c_printer.inf</Component>
-		<Component>driver_c_receiptprinter.inf</Component>
-		<Component>driver_c_sbp2.inf</Component>
-		<Component>driver_c_tapedrive.inf</Component>
-		<Component>driver_ehstorpwddrv.inf</Component>
-		<Component>driver_ehstortcgdrv.inf</Component>
-		<Component>driver_fdc.inf</Component>
-		<Component>driver_flpydisk.inf</Component>
-		<Component>driver_hidir.inf</Component>
-		<Component>driver_hidirkbd.inf</Component>
-		<Component>driver_hidscanner.inf</Component>
-		<Component>driver_idtsec.inf</Component>
-		<Component>driver_image.inf</Component>
-		<Component>driver_mchgr.inf</Component>
-		<Component>driver_mdm3com.inf</Component>
-		<Component>driver_mdm5674a.inf</Component>
-		<Component>driver_mdmadc.inf</Component>
-		<Component>driver_mdmagm64.inf</Component>
-		<Component>driver_mdmags64.inf</Component>
-		<Component>driver_mdmairte.inf</Component>
-		<Component>driver_mdmaiwa.inf</Component>
-		<Component>driver_mdmaiwa3.inf</Component>
-		<Component>driver_mdmaiwa4.inf</Component>
-		<Component>driver_mdmaiwa5.inf</Component>
-		<Component>driver_mdmaiwat.inf</Component>
-		<Component>driver_mdmar1.inf</Component>
-		<Component>driver_mdmarch.inf</Component>
-		<Component>driver_mdmarn.inf</Component>
-		<Component>driver_mdmati.inf</Component>
-		<Component>driver_mdmatm2k.inf</Component>
-		<Component>driver_mdmaus.inf</Component>
-		<Component>driver_mdmboca.inf</Component>
-		<Component>driver_mdmbsb.inf</Component>
-		<Component>driver_mdmbtmdm.inf</Component>
-		<Component>driver_mdmbug3.inf</Component>
-		<Component>driver_mdmbw561.inf</Component>
-		<Component>driver_mdmc26a.inf</Component>
-		<Component>driver_mdmcdp.inf</Component>
-		<Component>driver_mdmcm28.inf</Component>
-		<Component>driver_mdmcodex.inf</Component>
-		<Component>driver_mdmcom1.inf</Component>
-		<Component>driver_mdmcommu.inf</Component>
-		<Component>driver_mdmcomp.inf</Component>
-		<Component>driver_mdmcpq2.inf</Component>
-		<Component>driver_mdmcpv.inf</Component>
-		<Component>driver_mdmcrtix.inf</Component>
-		<Component>driver_mdmcxhv6.inf</Component>
-		<Component>driver_mdmcxpv6.inf</Component>
-		<Component>driver_mdmdcm5.inf</Component>
-		<Component>driver_mdmdcm6.inf</Component>
-		<Component>driver_mdmdf56f.inf</Component>
-		<Component>driver_mdmdgitn.inf</Component>
-		<Component>driver_mdmdp2.inf</Component>
-		<Component>driver_mdmdsi.inf</Component>
-		<Component>driver_mdmdyna.inf</Component>
-		<Component>driver_mdmeiger.inf</Component>
-		<Component>driver_mdmelsa.inf</Component>
-		<Component>driver_mdmeric.inf</Component>
-		<Component>driver_mdmeric2.inf</Component>
-		<Component>driver_mdmetech.inf</Component>
-		<Component>driver_mdmfj2.inf</Component>
-		<Component>driver_mdmgatew.inf</Component>
-		<Component>driver_mdmgcs.inf</Component>
-		<Component>driver_mdmgen.inf</Component>
-		<Component>driver_mdmgsm.inf</Component>
-		<Component>driver_mdmhaeu.inf</Component>
-		<Component>driver_mdmhandy.inf</Component>
-		<Component>driver_mdmhay2.inf</Component>
-		<Component>driver_mdmhayes.inf</Component>
-		<Component>driver_mdminfot.inf</Component>
-		<Component>driver_mdmiodat.inf</Component>
-		<Component>driver_mdmirmdm.inf</Component>
-		<Component>driver_mdmisdn.inf</Component>
-		<Component>driver_mdmjf56e.inf</Component>
-		<Component>driver_mdmke.inf</Component>
-		<Component>driver_mdmkortx.inf</Component>
-		<Component>driver_mdmlasat.inf</Component>
-		<Component>driver_mdmlasno.inf</Component>
-		<Component>driver_mdmlucnt.inf</Component>
-		<Component>driver_mdmmc288.inf</Component>
-		<Component>driver_mdmmcd.inf</Component>
-		<Component>driver_mdmmcom.inf</Component>
-		<Component>driver_mdmmct.inf</Component>
-		<Component>driver_mdmmega.inf</Component>
-		<Component>driver_mdmmetri.inf</Component>
-		<Component>driver_mdmmhrtz.inf</Component>
-		<Component>driver_mdmmhzel.inf</Component>
-		<Component>driver_mdmminij.inf</Component>
-		<Component>driver_mdmmod.inf</Component>
-		<Component>driver_mdmmot64.inf</Component>
-		<Component>driver_mdmmoto1.inf</Component>
-		<Component>driver_mdmmotou.inf</Component>
-		<Component>driver_mdmmts.inf</Component>
-		<Component>driver_mdmneuhs.inf</Component>
-		<Component>driver_mdmnis1u.inf</Component>
-		<Component>driver_mdmnis2u.inf</Component>
-		<Component>driver_mdmnis3t.inf</Component>
-		<Component>driver_mdmnis5t.inf</Component>
-		<Component>driver_mdmnokia.inf</Component>
-		<Component>driver_mdmnova.inf</Component>
-		<Component>driver_mdmntt1.inf</Component>
-		<Component>driver_mdmnttd2.inf</Component>
-		<Component>driver_mdmnttd6.inf</Component>
-		<Component>driver_mdmnttme.inf</Component>
-		<Component>driver_mdmnttp.inf</Component>
-		<Component>driver_mdmnttp2.inf</Component>
-		<Component>driver_mdmnttte.inf</Component>
-		<Component>driver_mdmolic.inf</Component>
-		<Component>driver_mdmomrn3.inf</Component>
-		<Component>driver_mdmoptn.inf</Component>
-		<Component>driver_mdmosi.inf</Component>
-		<Component>driver_mdmpace.inf</Component>
-		<Component>driver_mdmpenr.inf</Component>
-		<Component>driver_mdmpin.inf</Component>
-		<Component>driver_mdmpn1.inf</Component>
-		<Component>driver_mdmpp.inf</Component>
-		<Component>driver_mdmpsion.inf</Component>
-		<Component>driver_mdmracal.inf</Component>
-		<Component>driver_mdmrock.inf</Component>
-		<Component>driver_mdmrock3.inf</Component>
-		<Component>driver_mdmrock4.inf</Component>
-		<Component>driver_mdmrock5.inf</Component>
-		<Component>driver_mdmsier.inf</Component>
-		<Component>driver_mdmsii64.inf</Component>
-		<Component>driver_mdmsmart.inf</Component>
-		<Component>driver_mdmsonyu.inf</Component>
-		<Component>driver_mdmsun1.inf</Component>
-		<Component>driver_mdmsun2.inf</Component>
-		<Component>driver_mdmsupr3.inf</Component>
-		<Component>driver_mdmsupra.inf</Component>
-		<Component>driver_mdmsuprv.inf</Component>
-		<Component>driver_mdmtdk.inf</Component>
-		<Component>driver_mdmtdkj2.inf</Component>
-		<Component>driver_mdmtdkj3.inf</Component>
-		<Component>driver_mdmtdkj4.inf</Component>
-		<Component>driver_mdmtdkj5.inf</Component>
-		<Component>driver_mdmtdkj6.inf</Component>
-		<Component>driver_mdmtdkj7.inf</Component>
-		<Component>driver_mdmtexas.inf</Component>
-		<Component>driver_mdmti.inf</Component>
-		<Component>driver_mdmtkr.inf</Component>
-		<Component>driver_mdmtron.inf</Component>
-		<Component>driver_mdmusrf.inf</Component>
-		<Component>driver_mdmusrg.inf</Component>
-		<Component>driver_mdmusrgl.inf</Component>
-		<Component>driver_mdmusrk1.inf</Component>
-		<Component>driver_mdmusrsp.inf</Component>
-		<Component>driver_mdmvdot.inf</Component>
-		<Component>driver_mdmvv.inf</Component>
-		<Component>driver_mdmwhql0.inf</Component>
-		<Component>driver_mdmx5560.inf</Component>
-		<Component>driver_mdmzoom.inf</Component>
-		<Component>driver_mdmzyp.inf</Component>
-		<Component>driver_mdmzyxel.inf</Component>
-		<Component>driver_mdmzyxlg.inf</Component>
-		<Component>driver_mgtdyn.inf</Component>
-		<Component>driver_miradisp.inf</Component>
-		<Component>driver_modemcsa.inf</Component>
-		<Component>driver_msclmd.inf</Component>
-		<Component>driver_msdv.inf</Component>
-		<Component>driver_ntprint.inf</Component>
-		<Component>driver_ntprint4.inf</Component>
-		<Component>driver_printqueue.inf</Component>
-		<Component>driver_prnbrcl1.inf</Component>
-		<Component>driver_prncacl1.inf</Component>
-		<Component>driver_prncacl2.inf</Component>
-		<Component>driver_prncacla.inf</Component>
-		<Component>driver_prndlcl1.inf</Component>
-		<Component>driver_prndlclf.inf</Component>
-		<Component>driver_prndlclv.inf</Component>
-		<Component>driver_prndlclw.inf</Component>
-		<Component>driver_prnekcl2.inf</Component>
-		<Component>driver_prnepcl2.inf</Component>
-		<Component>driver_prnfxcl2.inf</Component>
-		<Component>driver_prnge001.inf</Component>
-		<Component>driver_prngeclv.inf</Component>
-		<Component>driver_prnhpcl1.inf</Component>
-		<Component>driver_prnhpcl2.inf</Component>
-		<Component>driver_prnhpcl3.inf</Component>
-		<Component>driver_prnhpcl4.inf</Component>
-		<Component>driver_prnhpcl5.inf</Component>
-		<Component>driver_prnkmcl2.inf</Component>
-		<Component>driver_prnkmcl4.inf</Component>
-		<Component>driver_prnkycl1.inf</Component>
-		<Component>driver_prnlxclv.inf</Component>
-		<Component>driver_prnlxclw.inf</Component>
-		<Component>driver_prnms002.inf</Component>
-		<Component>driver_prnms003.inf</Component>
-		<Component>driver_prnms004.inf</Component>
-		<Component>driver_prnms005.inf</Component>
-		<Component>driver_prnms007.inf</Component>
-		<Component>driver_prnms008.inf</Component>
-		<Component>driver_prnnecl2.inf</Component>
-		<Component>driver_prnokcl1.inf</Component>
-		<Component>driver_prnokcl2.inf</Component>
-		<Component>driver_prnrccl1.inf</Component>
-		<Component>driver_prnsacl1.inf</Component>
-		<Component>driver_prntscl2.inf</Component>
-		<Component>driver_prntscl3.inf</Component>
-		<Component>driver_prnxxcl3.inf</Component>
-		<Component>driver_prnxxcl4.inf</Component>
-		<Component>driver_rawsilo.inf</Component>
-		<Component>driver_remoteposdrv.inf</Component>
-		<Component>driver_sbp2.inf</Component>
-		<Component>driver_scrawpdo.inf</Component>
-		<Component>driver_scunknown.inf</Component>
-		<Component>driver_tape.inf</Component>
-		<Component>driver_tpmvsc.inf</Component>
-		<Component>driver_usbcir.inf</Component>
-		<Component>driver_usbvideo.inf</Component>
-		<Component>driver_wiabr00b.inf</Component>
-		<Component>driver_wiaca00j.inf</Component>
-		<Component>driver_wiadl003.inf</Component>
-		<Component>driver_wiaek002.inf</Component>
-		<Component>driver_wiaep003.inf</Component>
-		<Component>driver_wiaep004.inf</Component>
-		<Component>driver_wiahp008.inf</Component>
-		<Component>driver_wiaky002.inf</Component>
-		<Component>driver_wiaky003.inf</Component>
-		<Component>driver_wiasa003.inf</Component>
-		<Component>driver_wiaxx002.inf</Component>
-		<Component>driver_wsdprint.inf</Component>
-		<Component>driver_wsdscdrv.inf</Component>
-		<Component>driver_wudfusbcciddriver.inf</Component>
-		<Component>dvdplay</Component>
-		<Component>easeofaccessthemes</Component>
-		<Component>embeddedexperience</Component>
-		<Component>embeddedmode</Component>
-		<Component>enhancedstorage</Component>
-		<Component>enterpriseclientsync</Component>
-		<Component>eudcedit</Component>
-		<Component>exchangeactivesync</Component>
-		<Component>fciclient</Component>
-		<Component>filehistory</Component>
-		<Component>firstlogonanim</Component>
-		<Component>flashactivex</Component>
-		<Component>frameserver</Component>
-		<Component>gameexplorer</Component>
-		<Component>gettingstarted</Component>
-		<Component>help</Component>
-		<Component>homegroup</Component>
-		<Component>hwsupport_fax</Component>
-		<Component>hwsupport_floppy</Component>
-		<Component>hwsupport_infrared</Component>
-		<Component>hwsupport_internetprintingclient</Component>
-		<Component>hwsupport_modem</Component>
-		<Component>hwsupport_modemsettings</Component>
-		<Component>hwsupport_printer</Component>
-		<Component>hwsupport_scanner</Component>
-		<Component>hwsupport_smartcard</Component>
-		<Component>hwsupport_telephony</Component>
-		<Component>hwsupport_tv</Component>
-		<Component>hwsupport_wia</Component>
-		<Component>indeo</Component>
-		<Component>internetexplorerfeature</Component>
-		<Component>isoburn</Component>
-		<Component>killbits</Component>
-		<Component>legacycomponents</Component>
-		<Component>location</Component>
-		<Component>lockscreens</Component>
-		<Component>mail</Component>
-		<Component>mailcommdll</Component>
-		<Component>manifestbackup</Component>
-		<Component>manualsetup</Component>
-		<Component>maps</Component>
-		<Component>mediaplayer</Component>
-		<Component>mediaplayernetworksharing</Component>
-		<Component>mediastreaming</Component>
-		<Component>Microsoft.BioEnrollment</Component>
-		<Component>Microsoft.LockApp</Component>
-		<Component>Microsoft.Windows.Apprep.ChxApp</Component>
-		<Component>Microsoft.Windows.AssignedAccessLockApp</Component>
-		<Component>Microsoft.Windows.ContentDeliveryManager</Component>
-		<Component>Microsoft.Windows.Cortana</Component>
-		<Component>Microsoft.Windows.ParentalControls</Component>
-		<Component>Microsoft.Windows.SecondaryTileExperience</Component>
-		<Component>Microsoft.XboxGameCallableUI</Component>
-		<Component>migwiz</Component>
-		<Component>msinfo32</Component>
-		<Component>msmq</Component>
-		<Component>multipointconnector</Component>
-		<Component>ndiscap</Component>
-		<Component>nfsclient</Component>
-		<Component>ntvdm</Component>
-		<Component>offlinefiles</Component>
-		<Component>onedrive</Component>
-		<Component>otherthemes</Component>
-		<Component>peertopeer</Component>
-		<Component>perfmon</Component>
-		<Component>perftools</Component>
-		<Component>pos</Component>
-		<Component>printtopdf</Component>
-		<Component>proximity</Component>
-		<Component>reliabilityanalysis</Component>
-		<Component>remoteassistance</Component>
-		<Component>remoteregistry</Component>
-		<Component>retaildemo</Component>
-		<Component>rightsmanagement</Component>
-		<Component>rpclocator</Component>
-		<Component>screensavers</Component>
-		<Component>search</Component>
-		<Component>securitycenter</Component>
-		<Component>sendmail</Component>
-		<Component>settingsync</Component>
-		<Component>sharedpc</Component>
-		<Component>sharemediacpl</Component>
-		<Component>sihclient</Component>
-		<Component>simpletcp</Component>
-		<Component>skypeortc</Component>
-		<Component>smartscreen</Component>
-		<Component>snmp</Component>
-		<Component>soundsdefault</Component>
-		<Component>soundthemes</Component>
-		<Component>sourcessxsdir</Component>
-		<Component>speechcommon</Component>
-		<Component>speechtts</Component>
-		<Component>stepsrecorder</Component>
-		<Component>stici</Component>
-		<Component>storageqos</Component>
-		<Component>supportdir</Component>
-		<Component>synccenter</Component>
-		<Component>systemrestore</Component>
-		<Component>telnetclient</Component>
-		<Component>tempcache</Component>
-		<Component>tftpclient</Component>
-		<Component>tpmvsc</Component>
-		<Component>uev</Component>
-		<Component>userdeviceregistration</Component>
-		<Component>vcmcodecs</Component>
-		<Component>virtualpc</Component>
-		<Component>wallet</Component>
-		<Component>wallpaperdefault</Component>
-		<Component>wallpapers</Component>
-		<Component>wcn</Component>
-		<Component>webcamexperience</Component>
-		<Component>webclient</Component>
-		<Component>wifinetworkmanager</Component>
-		<Component>Windows.MiracastView</Component>
-		<Component>Windows.PrintDialog</Component>
-		<Component>windowsdefender</Component>
-		<Component>winocr</Component>
-		<Component>winre</Component>
-		<Component>winrm</Component>
-		<Component>winsat</Component>
-		<Component>wmitools</Component>
-		<Component>wordpad</Component>
-		<Component>xbox</Component>
+		<c>actioncenter 'Action Center'</c>
+		<c>adamclient 'Active Directory Lightweight Directory Services (AD LDS)'</c>
+		<c>alljoyn 'AllJoyn Router Service'</c>
+		<c>appcompat 'Application compatibility'</c>
+		<c>appv 'Application Virtualization (App-V)'</c>
+		<c>asimov 'Unified Telemetry Client (Asimov)'</c>
+		<c>assembly.net '.NET assembly cache'</c>
+		<c>autoplay</c>
+		<c>autoworkplacejoin 'Workplace Join'</c>
+		<c>axinstall 'ActiveX Installer Service'</c>
+		<c>biometricservice 'Windows Biometric Service'</c>
+		<c>branchcacheclient 'BranchCache Client'</c>
+		<c>briefcase</c>
+		<c>cdpsvc 'Connected Device Platform Service (CDPSvc)'</c>
+		<c>ceip 'CEIP (SQM)'</c>
+		<c>charmap 'Character Map'</c>
+		<c>deviceexperience 'Device Experience'</c>
+		<c>devicesync 'Microsoft Sync Framework'</c>
+		<c>diskdiagnosis 'Disk failure diagnostics'</c>
+		<c>diskquota 'Disk Quota'</c>
+		<c>driver_1394.inf</c>
+		<c>driver_61883.inf</c>
+		<c>driver_c_1394.inf</c>
+		<c>driver_c_61883.inf</c>
+		<c>driver_c_barcodescanner.inf</c>
+		<c>driver_c_biometric.inf</c>
+		<c>driver_c_cashdrawer.inf</c>
+		<c>driver_c_dot4.inf</c>
+		<c>driver_c_dot4print.inf</c>
+		<c>driver_c_fdc.inf</c>
+		<c>driver_c_floppydisk.inf</c>
+		<c>driver_c_infrared.inf</c>
+		<c>driver_c_magneticstripereader.inf</c>
+		<c>driver_c_mcx.inf</c>
+		<c>driver_c_mediumchanger.inf</c>
+		<c>driver_c_modem.inf</c>
+		<c>driver_c_pnpprinters.inf</c>
+		<c>driver_c_printer.inf</c>
+		<c>driver_c_receiptprinter.inf</c>
+		<c>driver_c_sbp2.inf</c>
+		<c>driver_c_tapedrive.inf</c>
+		<c>driver_ehstorpwddrv.inf</c>
+		<c>driver_ehstortcgdrv.inf</c>
+		<c>driver_fdc.inf</c>
+		<c>driver_flpydisk.inf</c>
+		<c>driver_hidir.inf</c>
+		<c>driver_hidirkbd.inf</c>
+		<c>driver_hidscanner.inf</c>
+		<c>driver_idtsec.inf</c>
+		<c>driver_image.inf</c>
+		<c>driver_mchgr.inf</c>
+		<c>driver_mdm3com.inf</c>
+		<c>driver_mdm5674a.inf</c>
+		<c>driver_mdmadc.inf</c>
+		<c>driver_mdmagm64.inf</c>
+		<c>driver_mdmags64.inf</c>
+		<c>driver_mdmairte.inf</c>
+		<c>driver_mdmaiwa.inf</c>
+		<c>driver_mdmaiwa3.inf</c>
+		<c>driver_mdmaiwa4.inf</c>
+		<c>driver_mdmaiwa5.inf</c>
+		<c>driver_mdmaiwat.inf</c>
+		<c>driver_mdmar1.inf</c>
+		<c>driver_mdmarch.inf</c>
+		<c>driver_mdmarn.inf</c>
+		<c>driver_mdmati.inf</c>
+		<c>driver_mdmatm2k.inf</c>
+		<c>driver_mdmaus.inf</c>
+		<c>driver_mdmboca.inf</c>
+		<c>driver_mdmbsb.inf</c>
+		<c>driver_mdmbtmdm.inf</c>
+		<c>driver_mdmbug3.inf</c>
+		<c>driver_mdmbw561.inf</c>
+		<c>driver_mdmc26a.inf</c>
+		<c>driver_mdmcdp.inf</c>
+		<c>driver_mdmcm28.inf</c>
+		<c>driver_mdmcodex.inf</c>
+		<c>driver_mdmcom1.inf</c>
+		<c>driver_mdmcommu.inf</c>
+		<c>driver_mdmcomp.inf</c>
+		<c>driver_mdmcpq2.inf</c>
+		<c>driver_mdmcpv.inf</c>
+		<c>driver_mdmcrtix.inf</c>
+		<c>driver_mdmcxhv6.inf</c>
+		<c>driver_mdmcxpv6.inf</c>
+		<c>driver_mdmdcm5.inf</c>
+		<c>driver_mdmdcm6.inf</c>
+		<c>driver_mdmdf56f.inf</c>
+		<c>driver_mdmdgitn.inf</c>
+		<c>driver_mdmdp2.inf</c>
+		<c>driver_mdmdsi.inf</c>
+		<c>driver_mdmdyna.inf</c>
+		<c>driver_mdmeiger.inf</c>
+		<c>driver_mdmelsa.inf</c>
+		<c>driver_mdmeric.inf</c>
+		<c>driver_mdmeric2.inf</c>
+		<c>driver_mdmetech.inf</c>
+		<c>driver_mdmfj2.inf</c>
+		<c>driver_mdmgatew.inf</c>
+		<c>driver_mdmgcs.inf</c>
+		<c>driver_mdmgen.inf</c>
+		<c>driver_mdmgsm.inf</c>
+		<c>driver_mdmhaeu.inf</c>
+		<c>driver_mdmhandy.inf</c>
+		<c>driver_mdmhay2.inf</c>
+		<c>driver_mdmhayes.inf</c>
+		<c>driver_mdminfot.inf</c>
+		<c>driver_mdmiodat.inf</c>
+		<c>driver_mdmirmdm.inf</c>
+		<c>driver_mdmisdn.inf</c>
+		<c>driver_mdmjf56e.inf</c>
+		<c>driver_mdmke.inf</c>
+		<c>driver_mdmkortx.inf</c>
+		<c>driver_mdmlasat.inf</c>
+		<c>driver_mdmlasno.inf</c>
+		<c>driver_mdmlucnt.inf</c>
+		<c>driver_mdmmc288.inf</c>
+		<c>driver_mdmmcd.inf</c>
+		<c>driver_mdmmcom.inf</c>
+		<c>driver_mdmmct.inf</c>
+		<c>driver_mdmmega.inf</c>
+		<c>driver_mdmmetri.inf</c>
+		<c>driver_mdmmhrtz.inf</c>
+		<c>driver_mdmmhzel.inf</c>
+		<c>driver_mdmminij.inf</c>
+		<c>driver_mdmmod.inf</c>
+		<c>driver_mdmmot64.inf</c>
+		<c>driver_mdmmoto1.inf</c>
+		<c>driver_mdmmotou.inf</c>
+		<c>driver_mdmmts.inf</c>
+		<c>driver_mdmneuhs.inf</c>
+		<c>driver_mdmnis1u.inf</c>
+		<c>driver_mdmnis2u.inf</c>
+		<c>driver_mdmnis3t.inf</c>
+		<c>driver_mdmnis5t.inf</c>
+		<c>driver_mdmnokia.inf</c>
+		<c>driver_mdmnova.inf</c>
+		<c>driver_mdmntt1.inf</c>
+		<c>driver_mdmnttd2.inf</c>
+		<c>driver_mdmnttd6.inf</c>
+		<c>driver_mdmnttme.inf</c>
+		<c>driver_mdmnttp.inf</c>
+		<c>driver_mdmnttp2.inf</c>
+		<c>driver_mdmnttte.inf</c>
+		<c>driver_mdmolic.inf</c>
+		<c>driver_mdmomrn3.inf</c>
+		<c>driver_mdmoptn.inf</c>
+		<c>driver_mdmosi.inf</c>
+		<c>driver_mdmpace.inf</c>
+		<c>driver_mdmpenr.inf</c>
+		<c>driver_mdmpin.inf</c>
+		<c>driver_mdmpn1.inf</c>
+		<c>driver_mdmpp.inf</c>
+		<c>driver_mdmpsion.inf</c>
+		<c>driver_mdmracal.inf</c>
+		<c>driver_mdmrock.inf</c>
+		<c>driver_mdmrock3.inf</c>
+		<c>driver_mdmrock4.inf</c>
+		<c>driver_mdmrock5.inf</c>
+		<c>driver_mdmsier.inf</c>
+		<c>driver_mdmsii64.inf</c>
+		<c>driver_mdmsmart.inf</c>
+		<c>driver_mdmsonyu.inf</c>
+		<c>driver_mdmsun1.inf</c>
+		<c>driver_mdmsun2.inf</c>
+		<c>driver_mdmsupr3.inf</c>
+		<c>driver_mdmsupra.inf</c>
+		<c>driver_mdmsuprv.inf</c>
+		<c>driver_mdmtdk.inf</c>
+		<c>driver_mdmtdkj2.inf</c>
+		<c>driver_mdmtdkj3.inf</c>
+		<c>driver_mdmtdkj4.inf</c>
+		<c>driver_mdmtdkj5.inf</c>
+		<c>driver_mdmtdkj6.inf</c>
+		<c>driver_mdmtdkj7.inf</c>
+		<c>driver_mdmtexas.inf</c>
+		<c>driver_mdmti.inf</c>
+		<c>driver_mdmtkr.inf</c>
+		<c>driver_mdmtron.inf</c>
+		<c>driver_mdmusrf.inf</c>
+		<c>driver_mdmusrg.inf</c>
+		<c>driver_mdmusrgl.inf</c>
+		<c>driver_mdmusrk1.inf</c>
+		<c>driver_mdmusrsp.inf</c>
+		<c>driver_mdmvdot.inf</c>
+		<c>driver_mdmvv.inf</c>
+		<c>driver_mdmwhql0.inf</c>
+		<c>driver_mdmx5560.inf</c>
+		<c>driver_mdmzoom.inf</c>
+		<c>driver_mdmzyp.inf</c>
+		<c>driver_mdmzyxel.inf</c>
+		<c>driver_mdmzyxlg.inf</c>
+		<c>driver_mgtdyn.inf</c>
+		<c>driver_modemcsa.inf</c>
+		<c>driver_msclmd.inf</c>
+		<c>driver_msdv.inf</c>
+		<c>driver_ntprint.inf</c>
+		<c>driver_ntprint4.inf</c>
+		<c>driver_printqueue.inf</c>
+		<c>driver_prnbrcl1.inf</c>
+		<c>driver_prncacl1.inf</c>
+		<c>driver_prncacl2.inf</c>
+		<c>driver_prncacla.inf</c>
+		<c>driver_prndlcl1.inf</c>
+		<c>driver_prndlclf.inf</c>
+		<c>driver_prndlclv.inf</c>
+		<c>driver_prndlclw.inf</c>
+		<c>driver_prnekcl2.inf</c>
+		<c>driver_prnepcl2.inf</c>
+		<c>driver_prnfxcl2.inf</c>
+		<c>driver_prnge001.inf</c>
+		<c>driver_prngeclv.inf</c>
+		<c>driver_prnhpcl1.inf</c>
+		<c>driver_prnhpcl2.inf</c>
+		<c>driver_prnhpcl3.inf</c>
+		<c>driver_prnhpcl4.inf</c>
+		<c>driver_prnhpcl5.inf</c>
+		<c>driver_prnkmcl2.inf</c>
+		<c>driver_prnkmcl4.inf</c>
+		<c>driver_prnkycl1.inf</c>
+		<c>driver_prnlxclv.inf</c>
+		<c>driver_prnlxclw.inf</c>
+		<c>driver_prnms002.inf</c>
+		<c>driver_prnms003.inf</c>
+		<c>driver_prnms004.inf</c>
+		<c>driver_prnms005.inf</c>
+		<c>driver_prnms007.inf</c>
+		<c>driver_prnms008.inf</c>
+		<c>driver_prnnecl2.inf</c>
+		<c>driver_prnokcl1.inf</c>
+		<c>driver_prnokcl2.inf</c>
+		<c>driver_prnrccl1.inf</c>
+		<c>driver_prnsacl1.inf</c>
+		<c>driver_prntscl2.inf</c>
+		<c>driver_prntscl3.inf</c>
+		<c>driver_prnxxcl3.inf</c>
+		<c>driver_prnxxcl4.inf</c>
+		<c>driver_rawsilo.inf</c>
+		<c>driver_remoteposdrv.inf</c>
+		<c>driver_sbp2.inf</c>
+		<c>driver_scrawpdo.inf</c>
+		<c>driver_scunknown.inf</c>
+		<c>driver_tape.inf</c>
+		<c>driver_tpmvsc.inf</c>
+		<c>driver_usbcir.inf</c>
+		<c>driver_wiabr00b.inf</c>
+		<c>driver_wiaca00j.inf</c>
+		<c>driver_wiadl003.inf</c>
+		<c>driver_wiaek002.inf</c>
+		<c>driver_wiaep003.inf</c>
+		<c>driver_wiaep004.inf</c>
+		<c>driver_wiahp008.inf</c>
+		<c>driver_wiaky002.inf</c>
+		<c>driver_wiaky003.inf</c>
+		<c>driver_wiasa003.inf</c>
+		<c>driver_wiaxx002.inf</c>
+		<c>driver_wsdprint.inf</c>
+		<c>driver_wsdscdrv.inf</c>
+		<c>driver_wudfusbcciddriver.inf</c>
+		<c>dvdplay 'DVD Play'</c>
+		<c>easeofaccessthemes 'Ease Of Access Themes'</c>
+		<c>embeddedexperience 'Device Lockdown (Embedded Experience)'</c>
+		<c>embeddedmode 'Embedded Mode'</c>
+		<c>enhancedstorage 'Enhanced Storage'</c>
+		<c>enterpriseclientsync 'Work Folders Client'</c>
+		<c>eudcedit 'Private Character Editor'</c>
+		<c>exchangeactivesync 'Exchange ActiveSync (EAS)'</c>
+		<c>fciclient 'File Server Resource Manager'</c>
+		<c>filehistory 'File History'</c>
+		<c>firstlogonanim 'First-logon animation'</c>
+		<c>flashactivex 'Adobe Flash for Internet Explorer'</c>
+		<c>frameserver 'Camera Frame Server'</c>
+		<c>gameexplorer 'Game Explorer'</c>
+		<c>gettingstarted 'Welcome Center (Getting Started)'</c>
+		<c>help 'Windows Help content'</c>
+		<c>homegroup</c>
+		<c>hwsupport_fax 'Fax'</c>
+		<c>hwsupport_floppy 'Floppy disk'</c>
+		<c>hwsupport_infrared 'Infrared devices'</c>
+		<c>hwsupport_internetprintingclient 'Internet Printing Client'</c>
+		<c>hwsupport_modem 'Modem'</c>
+		<c>hwsupport_modemsettings 'Shared modem settings (mdmgl*.inf)'</c>
+		<c>hwsupport_printer 'Printing'</c>
+		<c>hwsupport_scanner 'Scanner'</c>
+		<c>hwsupport_smartcard 'Smartcard'</c>
+		<c>hwsupport_telephony 'Telephony'</c>
+		<c>hwsupport_tv 'TV Tuner codecs and support'</c>
+		<c>hwsupport_wia 'Windows Image Acquisition (WIA)'</c>
+		<c>indeo 'Intel Indeo Codecs'</c>
+		<c>insiderhub 'Windows Insider Hub'</c>
+		<c>internetexplorerfeature 'Internet Explorer Feature (UI)'</c>
+		<c>isoburn 'Windows Disc Image Burning Tool'</c>
+		<c>killbits 'ActiveX Compatibility Flags (Killbits)'</c>
+		<c>legacycomponents 'Legacy components'</c>
+		<c>location 'Location Service'</c>
+		<c>lockscreens 'Lock Screen backgrounds'</c>
+		<c>mail 'Windows Mail'</c>
+		<c>mailcommdll 'Windows Mail Communications DLL'</c>
+		<c>manifestbackup 'Manifest Backup (WinSxS\Backup)'</c>
+		<c>manualsetup 'Manual Setup'</c>
+		<c>maps 'Windows Maps'</c>
+		<c>mediaplayer 'Windows Media Player'</c>
+		<c>mediaplayernetworksharing 'WMP Network Sharing Service'</c>
+		<c>mediastreaming 'Windows Media Streaming'</c>
+		<c>Microsoft.BioEnrollment</c>
+		<c>Microsoft.LockApp</c>
+		<c>Microsoft.Windows.Apprep.ChxApp</c>
+		<c>Microsoft.Windows.AssignedAccessLockApp</c>
+		<c>Microsoft.Windows.ContentDeliveryManager</c>
+		<c>Microsoft.Windows.Cortana</c>
+		<c>Microsoft.Windows.ParentalControls</c>
+		<c>Microsoft.Windows.SecondaryTileExperience</c>
+		<c>Microsoft.XboxGameCallableUI</c>
+		<c>migwiz 'Easy Transfer'</c>
+		<c>msinfo32 'System Information tool (MSInfo32)'</c>
+		<c>msmq 'Microsoft Message Queue (MSMQ)'</c>
+		<c>multipointconnector 'MultiPoint Connector'</c>
+		<c>ndiscap 'NDIS Packet Capturing (NDISCAP)'</c>
+		<c>nfsclient 'NFS Administrative Tools'</c>
+		<c>ntvdm 'NTVDM 16-bit subsystem'</c>
+		<c>offlinefiles 'Offline Files'</c>
+		<c>onedrive</c>
+		<c>otherthemes 'Other Themes'</c>
+		<c>pdfreader 'Windows Reader (PDF)'</c>
+		<c>peertopeer 'Peer Networking'</c>
+		<c>perfmon 'Performance Monitor'</c>
+		<c>pos 'Point of Service (POS)'</c>
+		<c>printtopdf 'Print to PDF'</c>
+		<c>rasauto 'Remote Access Auto Connection Manager'</c>
+		<c>reliabilityanalysis 'Reliability Analysis Services'</c>
+		<c>remoteassistance 'Remote Assistance'</c>
+		<c>remoteregistry 'Remote Registry'</c>
+		<c>retaildemo 'Retail Demo Content'</c>
+		<c>rightsmanagement 'Rights Management support'</c>
+		<c>rpclocator 'Remote Procedure Call (RPC) Locator'</c>
+		<c>screensavers</c>
+		<c>search 'Windows Search'</c>
+		<c>securitycenter 'Security Center'</c>
+		<c>sendmail 'Send To Mail and Desktop'</c>
+		<c>settingsync 'Setting Sync'</c>
+		<c>sharedpc 'Shared PC mode'</c>
+		<c>sharemediacpl 'Share Media Control Panel'</c>
+		<c>sihclient 'Server-Initiated Healing Client'</c>
+		<c>simpletcp 'Simple TCP/IP services'</c>
+		<c>skypeortc 'Skype ORTC'</c>
+		<c>smartscreen</c>
+		<c>snmp 'Simple Network Management Protocol (SNMP)'</c>
+		<c>soundsdefault 'Sounds (Default)'</c>
+		<c>soundthemes 'Sound Themes'</c>
+		<c>sourcessxsdir 'Manual feature repository'</c>
+		<c>speechcommon 'Speech Recognition'</c>
+		<c>speechtts 'Speech TTS'</c>
+		<c>stepsrecorder 'Steps Recorder'</c>
+		<c>stici 'Still Image Class Installer'</c>
+		<c>storageqos 'Storage Quality of Service (Storage QoS)'</c>
+		<c>supportdir 'Support directory'</c>
+		<c>synccenter 'Sync Center'</c>
+		<c>systemrestore 'System Restore'</c>
+		<c>telnetclient 'Telnet Client'</c>
+		<c>tempcache 'Cache and temp files'</c>
+		<c>tftpclient 'TFTP client'</c>
+		<c>tpmvsc 'Virtual Smart Card'</c>
+		<c>uev 'User Experience Virtualization (UE-V)'</c>
+		<c>userdeviceregistration 'User Device Registration'</c>
+		<c>vcmcodecs 'Video Compression Manager (VCM) codecs'</c>
+		<c>virtualpc 'Virtual PC licensing (legacy)'</c>
+		<c>wallet 'Wallet Service'</c>
+		<c>wallpaperdefault 'Wallpaper (Default)'</c>
+		<c>wallpapers 'Wallpapers (Themes)'</c>
+		<c>wcn 'Windows Connect Now (WCN)'</c>
+		<c>webcamexperience 'Webcam Experience'</c>
+		<c>webclient</c>
+		<c>wifinetworkmanager 'Wi-Fi Network Manager (Wi-Fi Sense)'</c>
+		<c>Windows.PrintDialog</c>
+		<c>windowsdefender 'Windows Defender'</c>
+		<c>winocr 'Windows TIFF IFilter (OCR)'</c>
+		<c>winre 'Windows Recovery'</c>
+		<c>winrm 'Windows Remote Management (WS-Management)'</c>
+		<c>winsat 'Windows System Assessment Tool (WinSAT)'</c>
+		<c>wmitools 'Windows Management Instrumentation Tools'</c>
+		<c>wordpad</c>
+		<c>xbox 'Xbox Support'</c>
 	</RemoveComponents>
 	<Compatibility protectHidden="true">
 		<ComponentFeatures>
@@ -417,6 +414,7 @@
 			<Feature enabled="no">Activation</Feature>
 			<Feature enabled="yes">AppxSupport</Feature>
 			<Feature enabled="yes">WindowsUpdate</Feature>
+			<Feature enabled="no">WLAN</Feature>
 		</ComponentFeatures>
 		<MachineDrivers>
 			<Machine enabled="yes">HostMachine</Machine>
@@ -431,9 +429,10 @@
 		<Feature name="SmbDirect">true</Feature>
 	</Features>
 	<AddPackages>
-		<Package>V:\Source\Windows10-TGSpin\Updates\Windows10.0-KB3176936-x64.msu</Package>
-		<Package>V:\Source\Windows10-TGSpin\Updates\Windows10.0-KB3199986-x64.msu</Package>
-		<Package>V:\Source\Windows10-TGSpin\Updates\Windows10.0-KB3209835-x64.msu</Package>
+		<Package>V:\Source\Windows10-TGSpin\Updates\Windows10.0-KB4013418-x64.msu</Package>
+		<Package>V:\Source\Windows10-TGSpin\Updates\Windows10.0-KB4013419-x64.cab</Package>
+		<Package>V:\Source\Windows10-TGSpin\Updates\Windows10.0-KB4013429-x64.msu</Package>
+		<Package>V:\Source\Windows10-TGSpin\Updates\Windows10.0-KB3150513-x64-v1.007.msu</Package>
 	</AddPackages>
 	<Drivers showHidden="true">
 		<AddDrivers></AddDrivers>
@@ -450,7 +449,6 @@
 					<HideLocalAccountScreen>false</HideLocalAccountScreen>
 					<HideOnlineAccountScreens>true</HideOnlineAccountScreens>
 					<HideWirelessSetupInOOBE>false</HideWirelessSetupInOOBE>
-					<ProtectYourPC>1</ProtectYourPC>
 				</OOBE>
 			</component>
 		</settings>
@@ -497,6 +495,7 @@
 	<Tweaks>
 		<Machine>
 			<TweakGroup name="AppCompat">
+				<Tweak name="DisableInventory">1</Tweak>
 				<Tweak name="DisablePCA">1</Tweak>
 				<Tweak name="OnlyUseLatestCLR">1</Tweak>
 			</TweakGroup>
@@ -509,8 +508,20 @@
 			<TweakGroup name="Network">
 				<Tweak name="NewNetworkWindowOff">1</Tweak>
 			</TweakGroup>
+			<TweakGroup name="OneDrive">
+				<Tweak name="DisableFileSyncNGSC">1</Tweak>
+			</TweakGroup>
 			<TweakGroup name="PowerControl">
 				<Tweak name="PagingFiles1">-:\pagefile.sys</Tweak>
+			</TweakGroup>
+			<TweakGroup name="Privacy">
+				<Tweak name="AllowExperimentation">0</Tweak>
+				<Tweak name="AllowLocation">0</Tweak>
+				<Tweak name="AllowTelemetry">0</Tweak>
+				<Tweak name="PaidWifi">0</Tweak>
+				<Tweak name="WiFiSenseOpen">0</Tweak>
+				<Tweak name="Skype-UserConsentAccepted">0</Tweak>
+				<Tweak name="FPEnabled">0</Tweak>
 			</TweakGroup>
 			<TweakGroup name="System">
 				<Tweak name="EnableFirstLogonAnimation">0</Tweak>
@@ -522,15 +533,16 @@
 			</TweakGroup>
 			<TweakGroup name="Windows">
 				<Tweak name="DisableATMFD">1</Tweak>
-				<Tweak name="AllowExperimentation">0</Tweak>
-				<Tweak name="AllowLocation">0</Tweak>
-				<Tweak name="AllowTelemetry">0</Tweak>
 				<Tweak name="Manual">1</Tweak>
+			</TweakGroup>
+			<TweakGroup name="WindowsDefender">
+				<Tweak name="DisableAntiSpyware">1</Tweak>
 			</TweakGroup>
 			<TweakGroup name="MetroTweaks">
 				<Tweak name="DisableWindowsConsumerFeatures">1</Tweak>
 			</TweakGroup>
 			<TweakGroup name="WindowsUpdate">
+				<Tweak name="DODownloadMode">100</Tweak>
 				<Tweak name="AUOptions">4</Tweak>
 			</TweakGroup>
 		</Machine>
@@ -553,7 +565,7 @@
 				<Tweak name="ClearRecentDocsOnExit">1</Tweak>
 				<Tweak name="NoRecentDocsHistory">1</Tweak>
 				<Tweak name="NavPaneShowAllFolders">1</Tweak>
-				<Tweak name="PhotoViewer.FileAssoc.Tiff">(unmanaged:OLEACC.dll)</Tweak>
+				<Tweak name="PhotoViewer.FileAssoc.Tiff">PhotoViewer.FileAssoc.Tiff</Tweak>
 				<Tweak name="ShowTaskViewButton">0</Tweak>
 				<Tweak name="TaskbarGlomLevel">1</Tweak>
 				<Tweak name="TaskbarSmallIcons">1</Tweak>
@@ -562,26 +574,36 @@
 				<Tweak name="Hidden">1</Tweak>
 				<Tweak name="ShowSuperHidden">1</Tweak>
 			</TweakGroup>
+			<TweakGroup name="Privacy">
+				<Tweak name="HarvestContacts">0</Tweak>
+				<Tweak name="RestrictImplicitTextCollection">1</Tweak>
+				<Tweak name="RestrictImplicitInkCollection">1</Tweak>
+				<Tweak name="AdvertisingInfo">0</Tweak>
+				<Tweak name="AcceptedPrivacyPolicy">0</Tweak>
+				<Tweak name="TIPC">0</Tweak>
+				<Tweak name="EnableWebContentEvaluation">0</Tweak>
+				<Tweak name="Enabledv9">0</Tweak>
+			</TweakGroup>
 		</Users>
 		<Services>
 			<TweakGroup name="services">
 				<Tweak name="service_DoSvc">4</Tweak>
 				<Tweak name="service_DPS">4</Tweak>
+				<Tweak name="service_WdiServiceHost">4</Tweak>
+				<Tweak name="service_WdiSystemHost">4</Tweak>
+				<Tweak name="service_diagnosticshub.standardcollector.service">4</Tweak>
 				<Tweak name="service_OneSyncSvc">4</Tweak>
-				<Tweak name="service_wisvc">4</Tweak>
 				<Tweak name="service_icssvc">4</Tweak>
 			</TweakGroup>
 		</Services>
 	</Tweaks>
 	<ApplyOptions>
-		<AutoRelease>true</AutoRelease>
-		<AutoISO>true</AutoISO>
-		<AutoExportImage>true</AutoExportImage>
-		<AutoExportEsd>true</AutoExportEsd>
-		<AutoSplitImage>false</AutoSplitImage>
-		<AutoBackupLog>false</AutoBackupLog>
-		<AutoBackupPreset>true</AutoBackupPreset>
-		<AutoIsoFile>V:\Source\Windows10-TGSpin\Output\Win10-TeamGnome-b007.iso</AutoIsoFile>
+		<ImageTasks>
+			<Task>imageSaveTrim</Task>
+			<Task>imageFormatEsd</Task>
+			<Task>imageOptionsCreateIso</Task>
+		</ImageTasks>
+		<AutoIsoFile>V:\Source\Windows10-TGSpin\Output\Win10-TeamGnome-b008.iso</AutoIsoFile>
 		<AutoIsoLabel>CES_X64FREO_EN-US_DV5</AutoIsoLabel>
 		<AutoSplitSize>4000</AutoSplitSize>
 		<CleanHotfixedLeftovers>true</CleanHotfixedLeftovers>
@@ -598,22 +620,22 @@
 			<Item type="File">
 				<Path>V:\Source\Windows10-TGSpin\UtilitiesForIntegration\vcredist_vs2005sp1_x86.EXE</Path>
 				<Params>/Q</Params>
-				<Index>6</Index>
+				<Index>8</Index>
 			</Item>
 			<Item type="File">
 				<Path>V:\Source\Windows10-TGSpin\UtilitiesForIntegration\vcredist_vs2005sp1_x64.EXE</Path>
 				<Params>/Q</Params>
-				<Index>5</Index>
+				<Index>7</Index>
 			</Item>
 			<Item type="File">
 				<Path>V:\Source\Windows10-TGSpin\UtilitiesForIntegration\HardLinkShellExt_X64.exe</Path>
 				<Params>/S</Params>
-				<Index>7</Index>
+				<Index>9</Index>
 			</Item>
 			<Item type="File">
 				<Path>V:\Source\Windows10-TGSpin\UtilitiesForIntegration\7z1604-x64.msi</Path>
 				<Params>/quiet /norestart</Params>
-				<Index>4</Index>
+				<Index>6</Index>
 			</Item>
 			<Item type="Command">
 				<Path>bcdedit</Path>
@@ -629,6 +651,21 @@
 				<Path>bcdedit</Path>
 				<Params>/set quietboot on</Params>
 				<Index>3</Index>
+			</Item>
+			<Item type="File">
+				<Path>V:\Source\Windows10-TGSpin\UtilitiesForIntegration\Notepad2-mod.4.2.25.985.exe</Path>
+				<Params>/VERYSILENT</Params>
+				<Index>10</Index>
+			</Item>
+			<Item type="Command">
+				<Path>bcdedit</Path>
+				<Params>/set {globalsettings} custom:16000067 true</Params>
+				<Index>4</Index>
+			</Item>
+			<Item type="Command">
+				<Path>bcdedit</Path>
+				<Params>/set {globalsettings} custom:16000069 true</Params>
+				<Index>5</Index>
 			</Item>
 		</Add>
 		<Change></Change>
@@ -646,5 +683,11 @@
 		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\HideTaskViewButton.reg</Item>
 		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\LaunchExplorerToThisPC.reg</Item>
 		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\PaintDesktopVersion.reg</Item>
+		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\RemoveExtractAllFromContext.reg</Item>
+		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\HideInsiderPageInSettings.reg</Item>
+		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\ReducedMenuDelay.reg</Item>
+		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\TelemetryKillSwitch.reg</Item>
+		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\HideWindowsUpdateAd.reg</Item>
+		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\DisableAdminShares.reg</Item>
 	</Registry>
 </Preset>
