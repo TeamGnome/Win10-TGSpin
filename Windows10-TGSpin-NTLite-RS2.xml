@@ -1,0 +1,728 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
+	<Date>04/02/2017 16:48</Date>
+	<AppInfo>
+		<Version>1.3.0.4944</Version>
+		<Licensed>Yes</Licensed>
+		<Protections>Yes</Protections>
+		<Host>Windows Server 2016 Datacenter 64-bit - Server 10.0.14393.970 (en-US) - en-US</Host>
+	</AppInfo>
+	<ImageInfo>
+		<Version mode="offline">Windows 10 Enterprise 64-bit - Client 10.0.15063.0 (en-US)</Version>
+		<GUID>{5B33F52B-1BC0-4F57-BDF1-E638CA232590}</GUID>
+	</ImageInfo>
+	<RemoveComponents>
+		<c>1527c705-839a-4832-9118-54d4Bd6a0c89</c>
+		<c>accessibility 'Accessibility tools'</c>
+		<c>actioncenter 'Action Center'</c>
+		<c>alljoyn 'AllJoyn Router Service'</c>
+		<c>appid 'Application Identity Service'</c>
+		<c>appv 'Application Virtualization (App-V)'</c>
+		<c>asimov 'Unified Telemetry Client (Asimov)'</c>
+		<c>assembly.net '.NET assembly cache'</c>
+		<c>axinstall 'ActiveX Installer Service'</c>
+		<c>biometricservice 'Windows Biometric Service'</c>
+		<c>branchcacheclient 'BranchCache Client'</c>
+		<c>c5e2524a-ea46-4f67-841f-6a9465d9d515</c>
+		<c>cdpsvc 'Connected Device Platform Service (CDPSvc)'</c>
+		<c>ceip 'CEIP (SQM)'</c>
+		<c>CortanaListenUIApp</c>
+		<c>dashost 'Device Association Service'</c>
+		<c>DesktopLearning</c>
+		<c>DesktopView</c>
+		<c>devicemanagement 'Device Management'</c>
+		<c>devicesync 'Microsoft Sync Framework'</c>
+		<c>diskdiagnosis 'Disk failure diagnostics'</c>
+		<c>diskquota 'Disk Quota'</c>
+		<c>dmwappushsvc 'WAP Push Message Routing Service (dmwappushsvc)'</c>
+		<c>driver_c_61883.inf</c>
+		<c>driver_c_barcodescanner.inf</c>
+		<c>driver_c_cashdrawer.inf</c>
+		<c>driver_c_dot4.inf</c>
+		<c>driver_c_dot4print.inf</c>
+		<c>driver_c_fdc.inf</c>
+		<c>driver_c_floppydisk.inf</c>
+		<c>driver_c_infrared.inf</c>
+		<c>driver_c_linedisplay.inf</c>
+		<c>driver_c_magneticstripereader.inf</c>
+		<c>driver_c_modem.inf</c>
+		<c>driver_c_pnpprinters.inf</c>
+		<c>driver_c_printer.inf</c>
+		<c>driver_c_receiptprinter.inf</c>
+		<c>driver_c_sensor.inf</c>
+		<c>driver_c_tapedrive.inf</c>
+		<c>driver_fdc.inf</c>
+		<c>driver_flpydisk.inf</c>
+		<c>driver_fusionv2.inf</c>
+		<c>driver_hidir.inf</c>
+		<c>driver_hidirkbd.inf</c>
+		<c>driver_kdnic.inf</c>
+		<c>driver_mdm3com.inf</c>
+		<c>driver_mdm5674a.inf</c>
+		<c>driver_mdmadc.inf</c>
+		<c>driver_mdmagm64.inf</c>
+		<c>driver_mdmags64.inf</c>
+		<c>driver_mdmairte.inf</c>
+		<c>driver_mdmaiwa.inf</c>
+		<c>driver_mdmaiwa3.inf</c>
+		<c>driver_mdmaiwa4.inf</c>
+		<c>driver_mdmaiwa5.inf</c>
+		<c>driver_mdmaiwat.inf</c>
+		<c>driver_mdmar1.inf</c>
+		<c>driver_mdmarch.inf</c>
+		<c>driver_mdmarn.inf</c>
+		<c>driver_mdmati.inf</c>
+		<c>driver_mdmatm2k.inf</c>
+		<c>driver_mdmaus.inf</c>
+		<c>driver_mdmboca.inf</c>
+		<c>driver_mdmbsb.inf</c>
+		<c>driver_mdmbtmdm.inf</c>
+		<c>driver_mdmbug3.inf</c>
+		<c>driver_mdmbw561.inf</c>
+		<c>driver_mdmc26a.inf</c>
+		<c>driver_mdmcdp.inf</c>
+		<c>driver_mdmcm28.inf</c>
+		<c>driver_mdmcodex.inf</c>
+		<c>driver_mdmcom1.inf</c>
+		<c>driver_mdmcommu.inf</c>
+		<c>driver_mdmcomp.inf</c>
+		<c>driver_mdmcpq2.inf</c>
+		<c>driver_mdmcpv.inf</c>
+		<c>driver_mdmcrtix.inf</c>
+		<c>driver_mdmcxhv6.inf</c>
+		<c>driver_mdmcxpv6.inf</c>
+		<c>driver_mdmdcm5.inf</c>
+		<c>driver_mdmdcm6.inf</c>
+		<c>driver_mdmdf56f.inf</c>
+		<c>driver_mdmdgitn.inf</c>
+		<c>driver_mdmdp2.inf</c>
+		<c>driver_mdmdsi.inf</c>
+		<c>driver_mdmdyna.inf</c>
+		<c>driver_mdmeiger.inf</c>
+		<c>driver_mdmelsa.inf</c>
+		<c>driver_mdmeric.inf</c>
+		<c>driver_mdmeric2.inf</c>
+		<c>driver_mdmetech.inf</c>
+		<c>driver_mdmfj2.inf</c>
+		<c>driver_mdmgatew.inf</c>
+		<c>driver_mdmgcs.inf</c>
+		<c>driver_mdmgen.inf</c>
+		<c>driver_mdmgsm.inf</c>
+		<c>driver_mdmhaeu.inf</c>
+		<c>driver_mdmhandy.inf</c>
+		<c>driver_mdmhay2.inf</c>
+		<c>driver_mdmhayes.inf</c>
+		<c>driver_mdminfot.inf</c>
+		<c>driver_mdmiodat.inf</c>
+		<c>driver_mdmirmdm.inf</c>
+		<c>driver_mdmisdn.inf</c>
+		<c>driver_mdmjf56e.inf</c>
+		<c>driver_mdmke.inf</c>
+		<c>driver_mdmkortx.inf</c>
+		<c>driver_mdmlasat.inf</c>
+		<c>driver_mdmlasno.inf</c>
+		<c>driver_mdmlucnt.inf</c>
+		<c>driver_mdmmc288.inf</c>
+		<c>driver_mdmmcd.inf</c>
+		<c>driver_mdmmcom.inf</c>
+		<c>driver_mdmmct.inf</c>
+		<c>driver_mdmmega.inf</c>
+		<c>driver_mdmmetri.inf</c>
+		<c>driver_mdmmhrtz.inf</c>
+		<c>driver_mdmmhzel.inf</c>
+		<c>driver_mdmminij.inf</c>
+		<c>driver_mdmmod.inf</c>
+		<c>driver_mdmmot64.inf</c>
+		<c>driver_mdmmoto1.inf</c>
+		<c>driver_mdmmotou.inf</c>
+		<c>driver_mdmmts.inf</c>
+		<c>driver_mdmneuhs.inf</c>
+		<c>driver_mdmnis1u.inf</c>
+		<c>driver_mdmnis2u.inf</c>
+		<c>driver_mdmnis3t.inf</c>
+		<c>driver_mdmnis5t.inf</c>
+		<c>driver_mdmnokia.inf</c>
+		<c>driver_mdmnova.inf</c>
+		<c>driver_mdmntt1.inf</c>
+		<c>driver_mdmnttd2.inf</c>
+		<c>driver_mdmnttd6.inf</c>
+		<c>driver_mdmnttme.inf</c>
+		<c>driver_mdmnttp.inf</c>
+		<c>driver_mdmnttp2.inf</c>
+		<c>driver_mdmnttte.inf</c>
+		<c>driver_mdmolic.inf</c>
+		<c>driver_mdmomrn3.inf</c>
+		<c>driver_mdmoptn.inf</c>
+		<c>driver_mdmosi.inf</c>
+		<c>driver_mdmpace.inf</c>
+		<c>driver_mdmpenr.inf</c>
+		<c>driver_mdmpin.inf</c>
+		<c>driver_mdmpn1.inf</c>
+		<c>driver_mdmpp.inf</c>
+		<c>driver_mdmpsion.inf</c>
+		<c>driver_mdmracal.inf</c>
+		<c>driver_mdmrock.inf</c>
+		<c>driver_mdmrock3.inf</c>
+		<c>driver_mdmrock4.inf</c>
+		<c>driver_mdmrock5.inf</c>
+		<c>driver_mdmsier.inf</c>
+		<c>driver_mdmsii64.inf</c>
+		<c>driver_mdmsmart.inf</c>
+		<c>driver_mdmsonyu.inf</c>
+		<c>driver_mdmsun1.inf</c>
+		<c>driver_mdmsun2.inf</c>
+		<c>driver_mdmsupr3.inf</c>
+		<c>driver_mdmsupra.inf</c>
+		<c>driver_mdmsuprv.inf</c>
+		<c>driver_mdmtdk.inf</c>
+		<c>driver_mdmtdkj2.inf</c>
+		<c>driver_mdmtdkj3.inf</c>
+		<c>driver_mdmtdkj4.inf</c>
+		<c>driver_mdmtdkj5.inf</c>
+		<c>driver_mdmtdkj6.inf</c>
+		<c>driver_mdmtdkj7.inf</c>
+		<c>driver_mdmtexas.inf</c>
+		<c>driver_mdmti.inf</c>
+		<c>driver_mdmtkr.inf</c>
+		<c>driver_mdmtron.inf</c>
+		<c>driver_mdmusrf.inf</c>
+		<c>driver_mdmusrg.inf</c>
+		<c>driver_mdmusrgl.inf</c>
+		<c>driver_mdmusrk1.inf</c>
+		<c>driver_mdmusrsp.inf</c>
+		<c>driver_mdmvdot.inf</c>
+		<c>driver_mdmvv.inf</c>
+		<c>driver_mdmwhql0.inf</c>
+		<c>driver_mdmx5560.inf</c>
+		<c>driver_mdmzoom.inf</c>
+		<c>driver_mdmzyp.inf</c>
+		<c>driver_mdmzyxel.inf</c>
+		<c>driver_mdmzyxlg.inf</c>
+		<c>driver_modemcsa.inf</c>
+		<c>driver_ntprint.inf</c>
+		<c>driver_ntprint4.inf</c>
+		<c>driver_oposdrv.inf</c>
+		<c>driver_printqueue.inf</c>
+		<c>driver_prnbrcl1.inf</c>
+		<c>driver_prncacl1.inf</c>
+		<c>driver_prncacl2.inf</c>
+		<c>driver_prncacla.inf</c>
+		<c>driver_prndlcl1.inf</c>
+		<c>driver_prndlclf.inf</c>
+		<c>driver_prndlclv.inf</c>
+		<c>driver_prndlclw.inf</c>
+		<c>driver_prnekcl2.inf</c>
+		<c>driver_prnepcl2.inf</c>
+		<c>driver_prnfxcl2.inf</c>
+		<c>driver_prnge001.inf</c>
+		<c>driver_prngeclv.inf</c>
+		<c>driver_prnhpcl1.inf</c>
+		<c>driver_prnhpcl2.inf</c>
+		<c>driver_prnhpcl3.inf</c>
+		<c>driver_prnhpcl4.inf</c>
+		<c>driver_prnhpcl5.inf</c>
+		<c>driver_prnkmcl2.inf</c>
+		<c>driver_prnkmcl4.inf</c>
+		<c>driver_prnkycl1.inf</c>
+		<c>driver_prnlxclv.inf</c>
+		<c>driver_prnlxclw.inf</c>
+		<c>driver_prnms002.inf</c>
+		<c>driver_prnms003.inf</c>
+		<c>driver_prnms004.inf</c>
+		<c>driver_prnms005.inf</c>
+		<c>driver_prnms007.inf</c>
+		<c>driver_prnms008.inf</c>
+		<c>driver_prnms010.inf</c>
+		<c>driver_prnms011.inf</c>
+		<c>driver_prnnecl2.inf</c>
+		<c>driver_prnokcl1.inf</c>
+		<c>driver_prnokcl2.inf</c>
+		<c>driver_prnrccl1.inf</c>
+		<c>driver_prnsacl1.inf</c>
+		<c>driver_prntscl2.inf</c>
+		<c>driver_prntscl3.inf</c>
+		<c>driver_prnxxcl3.inf</c>
+		<c>driver_prnxxcl4.inf</c>
+		<c>driver_rawsilo.inf</c>
+		<c>driver_remoteposdrv.inf</c>
+		<c>driver_sensorsalsdriver.inf</c>
+		<c>driver_sensorshidclassdriver.inf</c>
+		<c>driver_sensorsservicedriver.inf</c>
+		<c>driver_tape.inf</c>
+		<c>driver_usbcir.inf</c>
+		<c>driver_wsdprint.inf</c>
+		<c>dvdplay 'DVD Play'</c>
+		<c>E2A4F912-2574-4A75-9BB0-0D023378592B</c>
+		<c>easeofaccessthemes 'Ease Of Access Themes'</c>
+		<c>eicfg 'Edition configuration file (EI.cfg)'</c>
+		<c>embeddedexperience 'Device Lockdown (Embedded Experience)'</c>
+		<c>embeddedmode 'Embedded Mode'</c>
+		<c>enhancedstorage 'Enhanced Storage'</c>
+		<c>enterpriseclientsync 'Work Folders Client'</c>
+		<c>EnvironmentsApp</c>
+		<c>errorreporting 'Windows Error Reporting'</c>
+		<c>eudcedit 'Private Character Editor'</c>
+		<c>exchangeactivesync 'Exchange ActiveSync (EAS)'</c>
+		<c>fciclient 'File Server Resource Manager'</c>
+		<c>filehistory 'File History'</c>
+		<c>firstlogonanim 'First-logon animation'</c>
+		<c>flashactivex 'Adobe Flash for Internet Explorer'</c>
+		<c>gameexplorer 'Game Explorer'</c>
+		<c>gettingstarted 'Welcome Center (Getting Started)'</c>
+		<c>grouppolicy 'Group Policy Client'</c>
+		<c>help 'Windows Help content'</c>
+		<c>helpsupport 'Help file support (CHM)'</c>
+		<c>HoloCamera</c>
+		<c>HoloItemPlayerApp</c>
+		<c>HoloShell</c>
+		<c>homegroup</c>
+		<c>hwsupport_fax 'Fax'</c>
+		<c>hwsupport_floppy 'Floppy disk'</c>
+		<c>hwsupport_infrared 'Infrared devices'</c>
+		<c>hwsupport_internetprintingclient 'Internet Printing Client'</c>
+		<c>hwsupport_modem 'Modem'</c>
+		<c>hwsupport_modemsettings 'Shared modem settings (mdmgl*.inf)'</c>
+		<c>hwsupport_printer 'Printing'</c>
+		<c>hwsupport_scanner 'Scanner'</c>
+		<c>hwsupport_telephony 'Telephony'</c>
+		<c>hwsupport_tv 'TV Tuner codecs and support'</c>
+		<c>hwsupport_wia 'Windows Image Acquisition (WIA)'</c>
+		<c>indeo 'Intel Indeo Codecs'</c>
+		<c>insiderhub 'Windows Insider Hub'</c>
+		<c>internetexplorerfeature 'Internet Explorer Feature (UI)'</c>
+		<c>kerneldebug 'Kernel Debugging'</c>
+		<c>killbits 'ActiveX Compatibility Flags (Killbits)'</c>
+		<c>legacycomponents 'Legacy components'</c>
+		<c>location 'Location Service'</c>
+		<c>lockscreens 'Lock Screen backgrounds'</c>
+		<c>mail 'Windows Mail'</c>
+		<c>mailcommdll 'Windows Mail Communications DLL'</c>
+		<c>manifestbackup 'Manifest Backup (WinSxS\Backup)'</c>
+		<c>manualsetup 'Manual Setup'</c>
+		<c>mediaplayer 'Windows Media Player'</c>
+		<c>mediaplayernetworksharing 'WMP Network Sharing Service'</c>
+		<c>mediastreaming 'Windows Media Streaming'</c>
+		<c>messagingsvc 'Messaging Service'</c>
+		<c>Microsoft.3DBuilder</c>
+		<c>Microsoft.Advertising.Xaml</c>
+		<c>Microsoft.BingWeather</c>
+		<c>Microsoft.BioEnrollment</c>
+		<c>Microsoft.Getstarted</c>
+		<c>Microsoft.LockApp</c>
+		<c>Microsoft.Messaging</c>
+		<c>Microsoft.Microsoft3DViewer</c>
+		<c>Microsoft.MicrosoftEdge</c>
+		<c>Microsoft.MicrosoftOfficeHub</c>
+		<c>Microsoft.MicrosoftSolitaireCollection</c>
+		<c>Microsoft.MicrosoftStickyNotes</c>
+		<c>Microsoft.MSPaint</c>
+		<c>Microsoft.Office.OneNote</c>
+		<c>Microsoft.OneConnect</c>
+		<c>Microsoft.People</c>
+		<c>Microsoft.SkypeApp</c>
+		<c>Microsoft.Wallet</c>
+		<c>Microsoft.Windows.Apprep.ChxApp</c>
+		<c>Microsoft.Windows.AssignedAccessLockApp</c>
+		<c>Microsoft.Windows.ContentDeliveryManager</c>
+		<c>Microsoft.Windows.Cortana</c>
+		<c>Microsoft.Windows.HolographicFirstRun</c>
+		<c>Microsoft.Windows.OOBENetworkCaptivePortal</c>
+		<c>Microsoft.Windows.OOBENetworkConnectionFlow</c>
+		<c>Microsoft.Windows.ParentalControls</c>
+		<c>Microsoft.Windows.Photos</c>
+		<c>Microsoft.Windows.SecHealthUI</c>
+		<c>Microsoft.Windows.SecondaryTileExperience</c>
+		<c>Microsoft.Windows.SecureAssessmentBrowser</c>
+		<c>Microsoft.Windows.WindowPicker</c>
+		<c>Microsoft.WindowsAlarms</c>
+		<c>Microsoft.WindowsCalculator</c>
+		<c>Microsoft.WindowsCamera</c>
+		<c>microsoft.windowscommunicationsapps</c>
+		<c>Microsoft.WindowsFeedbackHub</c>
+		<c>Microsoft.WindowsMaps</c>
+		<c>Microsoft.WindowsSoundRecorder</c>
+		<c>Microsoft.XboxApp</c>
+		<c>Microsoft.XboxGameCallableUI</c>
+		<c>Microsoft.XboxGameOverlay</c>
+		<c>Microsoft.XboxSpeechToTextOverlay</c>
+		<c>Microsoft.ZuneMusic</c>
+		<c>Microsoft.ZuneVideo</c>
+		<c>migwiz 'Easy Transfer'</c>
+		<c>mobiledevicemanagement 'Mobile Device Management (MDM)'</c>
+		<c>mobilepc</c>
+		<c>mobilepc_networkprojection 'Network Projection'</c>
+		<c>mobilepc_sensors 'Sensors'</c>
+		<c>msinfo32 'System Information tool (MSInfo32)'</c>
+		<c>multipointconnector 'MultiPoint Connector'</c>
+		<c>nfsclient 'NFS Administrative Tools'</c>
+		<c>ntvdm 'NTVDM 16-bit subsystem'</c>
+		<c>offlinefiles 'Offline Files'</c>
+		<c>onedrive</c>
+		<c>otherthemes 'Other Themes'</c>
+		<c>pdfreader 'Windows Reader (PDF)'</c>
+		<c>peertopeer 'Peer Networking'</c>
+		<c>pos 'Point of Service (POS)'</c>
+		<c>printtopdf 'Print to PDF'</c>
+		<c>provisioning 'Windows Provisioning'</c>
+		<c>rasauto 'Remote Access Auto Connection Manager'</c>
+		<c>reliabilityanalysis 'Reliability Analysis Services'</c>
+		<c>remoteassistance 'Remote Assistance'</c>
+		<c>remoteregistry 'Remote Registry'</c>
+		<c>retaildemo 'Retail Demo Content'</c>
+		<c>rightsmanagement 'Rights Management support'</c>
+		<c>rmsvc 'Radio Management and Airplane Mode Service'</c>
+		<c>screensavers</c>
+		<c>search 'Windows Search'</c>
+		<c>secedit 'Local Security Policy Editor'</c>
+		<c>securitycenter 'Security Center'</c>
+		<c>sendmail 'Send To Mail and Desktop'</c>
+		<c>settingsync 'Setting Sync'</c>
+		<c>sharedpc 'Shared PC mode'</c>
+		<c>sihclient 'Server-Initiated Healing Client'</c>
+		<c>simpletcp 'Simple TCP/IP services'</c>
+		<c>skypeortc 'Skype ORTC'</c>
+		<c>smartscreen</c>
+		<c>smsrouter 'SMS Router Service'</c>
+		<c>snmp 'Simple Network Management Protocol (SNMP)'</c>
+		<c>sourcessxsdir 'Manual feature repository'</c>
+		<c>speechcommon 'Speech Recognition'</c>
+		<c>speechtts 'Speech TTS'</c>
+		<c>stepsrecorder 'Steps Recorder'</c>
+		<c>stici 'Still Image Class Installer'</c>
+		<c>supportdir 'Support directory'</c>
+		<c>synccenter 'Sync Center'</c>
+		<c>systemrestore 'System Restore'</c>
+		<c>telnetclient 'Telnet Client'</c>
+		<c>tempcache 'Cache and temp files'</c>
+		<c>tftpclient 'TFTP client'</c>
+		<c>uev 'User Experience Virtualization (UE-V)'</c>
+		<c>ui0detect 'Interactive Services Detection'</c>
+		<c>vcmcodecs 'Video Compression Manager (VCM) codecs'</c>
+		<c>virtualpc 'Virtual PC licensing (legacy)'</c>
+		<c>wallet 'Wallet Service'</c>
+		<c>wallpaperdefault 'Wallpaper (Default)'</c>
+		<c>wallpapers 'Wallpapers (Themes)'</c>
+		<c>wcmsvc 'Windows Connection Manager'</c>
+		<c>wcn 'Windows Connect Now (WCN)'</c>
+		<c>webcamexperience 'Webcam Experience'</c>
+		<c>webclient</c>
+		<c>wifinetworkmanager 'Wi-Fi Network Manager (Wi-Fi Sense)'</c>
+		<c>Windows.ContactSupport</c>
+		<c>Windows.PrintDialog</c>
+		<c>windowsdefender 'Windows Defender'</c>
+		<c>winocr 'Windows TIFF IFilter (OCR)'</c>
+		<c>winre 'Windows Recovery'</c>
+		<c>winrm 'Windows Remote Management (WS-Management)'</c>
+		<c>winsat 'Windows System Assessment Tool (WinSAT)'</c>
+		<c>wwanautoconfig 'WWAN AutoConfig'</c>
+	</RemoveComponents>
+	<Compatibility protectHidden="true">
+		<ComponentFeatures>
+			<Feature enabled="no">CortanaSupport</Feature>
+			<Feature enabled="yes">DefaultFonts</Feature>
+			<Feature enabled="yes">Hyper-V</Feature>
+			<Feature enabled="no">ManualSetup</Feature>
+			<Feature enabled="no">OfficeSupport</Feature>
+			<Feature enabled="no">NetworkDiscovery</Feature>
+			<Feature enabled="yes">OOBE</Feature>
+			<Feature enabled="no">Printing</Feature>
+			<Feature enabled="yes">Recommended-All</Feature>
+			<Feature enabled="no">Recommended-Tablet</Feature>
+			<Feature enabled="yes">USB</Feature>
+			<Feature enabled="no">USBModem</Feature>
+			<Feature enabled="yes">VideoPlayback</Feature>
+			<Feature enabled="yes">VisualStudio</Feature>
+			<Feature enabled="yes">Activation</Feature>
+			<Feature enabled="yes">AppxSupport</Feature>
+			<Feature enabled="yes">WindowsUpdate</Feature>
+			<Feature enabled="yes">WLAN</Feature>
+		</ComponentFeatures>
+		<MachineDrivers>
+			<Machine enabled="no">HostMachine</Machine>
+			<Machine enabled="no">Hyper-V VM</Machine>
+			<Machine enabled="no">Parallels VM</Machine>
+			<Machine enabled="no">Virtual Box VM</Machine>
+			<Machine enabled="no">VMware VM</Machine>
+		</MachineDrivers>
+	</Compatibility>
+	<Features>
+		<Feature name="SMB1Protocol">false</Feature>
+		<Feature name="SmbDirect">true</Feature>
+	</Features>
+	<AddPackages>
+		<Package>V:\Source\Windows10-TGSpin\Packages\Microsoft-Windows-win32calc-Package~31bf3856ad364e35~amd64~~10.0.15063.0.cab</Package>
+		<Package>V:\Source\Windows10-TGSpin\Packages\Microsoft-Windows-win32calc-Package~31bf3856ad364e35~amd64~en-US~10.0.15063.0.cab</Package>
+		<Package>V:\Source\Windows10-TGSpin\Updates\Windows10.0-KB4016250-x64.cab</Package>
+	</AddPackages>
+	<Drivers showHidden="true">
+		<AddDrivers></AddDrivers>
+	</Drivers>
+	<Unattended mode="1">
+		<OEMSetupComplete>false</OEMSetupComplete>
+		<AnswerFileLocationPanther>false</AnswerFileLocationPanther>
+		<AnswerFileLocationBoot>false</AnswerFileLocationBoot>
+		<SaveBothArch>false</SaveBothArch>
+		<settings pass="oobeSystem">
+			<component name="Microsoft-Windows-Shell-Setup">
+				<OOBE>
+					<HideEULAPage>true</HideEULAPage>
+					<HideLocalAccountScreen>true</HideLocalAccountScreen>
+					<HideOnlineAccountScreens>true</HideOnlineAccountScreens>
+					<HideWirelessSetupInOOBE>true</HideWirelessSetupInOOBE>
+					<NetworkLocation>Other</NetworkLocation>
+					<ProtectYourPC>3</ProtectYourPC>
+				</OOBE>
+			</component>
+		</settings>
+		<settings pass="specialize">
+			<component name="Microsoft-Windows-Security-SPP-UX">
+				<SkipAutoActivation>true</SkipAutoActivation>
+			</component>
+			<component name="Microsoft-Windows-Shell-Setup">
+				<ProductKey>NPPR9-FWDCX-D2C8J-H872K-2YT43</ProductKey>
+				<RegisteredOrganization>Team Gnome</RegisteredOrganization>
+			</component>
+		</settings>
+		<settings pass="windowsPE">
+			<component name="Microsoft-Windows-Setup">
+				<Diagnostics>
+					<OptIn>false</OptIn>
+				</Diagnostics>
+				<DynamicUpdate>
+					<Enable>false</Enable>
+					<WillShowUI>OnError</WillShowUI>
+				</DynamicUpdate>
+				<ImageInstall>
+					<OSImage>
+						<WillShowUI>OnError</WillShowUI>
+						<InstallFrom>
+							<MetaData>
+								<Key>/IMAGE/NAME</Key>
+								<Value>Windows 10 Enterprise</Value>
+							</MetaData>
+						</InstallFrom>
+					</OSImage>
+				</ImageInstall>
+				<UserData>
+					<AcceptEula>true</AcceptEula>
+					<ProductKey>
+						<Key>NPPR9-FWDCX-D2C8J-H872K-2YT43</Key>
+						<WillShowUI>OnError</WillShowUI>
+					</ProductKey>
+				</UserData>
+			</component>
+		</settings>
+	</Unattended>
+	<Tweaks>
+		<Machine>
+			<TweakGroup name="AppCompat">
+				<Tweak name="DisableInventory">1</Tweak>
+				<Tweak name="DisablePCA">1</Tweak>
+				<Tweak name="OnlyUseLatestCLR">1</Tweak>
+			</TweakGroup>
+			<TweakGroup name="CrashControl">
+				<Tweak name="CrashDumpEnabled">0</Tweak>
+			</TweakGroup>
+			<TweakGroup name="Explorer">
+				<Tweak name="NoDriveTypeAutoRun">255</Tweak>
+			</TweakGroup>
+			<TweakGroup name="Network">
+				<Tweak name="NewNetworkWindowOff">1</Tweak>
+			</TweakGroup>
+			<TweakGroup name="OneDrive">
+				<Tweak name="DisableFileSyncNGSC">1</Tweak>
+			</TweakGroup>
+			<TweakGroup name="PowerControl">
+				<Tweak name="PagingFiles1">-:\pagefile.sys</Tweak>
+			</TweakGroup>
+			<TweakGroup name="Privacy">
+				<Tweak name="AllowExperimentation">0</Tweak>
+				<Tweak name="AllowLocation">0</Tweak>
+				<Tweak name="AllowTelemetry">1</Tweak>
+				<Tweak name="PaidWifi">0</Tweak>
+				<Tweak name="WiFiSenseOpen">0</Tweak>
+				<Tweak name="UserAuthPolicy">0</Tweak>
+				<Tweak name="BluetoothPolicy">0</Tweak>
+				<Tweak name="Skype-UserConsentAccepted">0</Tweak>
+				<Tweak name="FPEnabled">0</Tweak>
+				<Tweak name="Enabledv9">0</Tweak>
+				<Tweak name="SmartScreenEnabled">Off</Tweak>
+			</TweakGroup>
+			<TweakGroup name="System">
+				<Tweak name="EnableLinkedConnections">0</Tweak>
+				<Tweak name="EnableFirstLogonAnimation">0</Tweak>
+				<Tweak name="NoConnectedUser">3</Tweak>
+				<Tweak name="ShutdownWithoutLogon">1</Tweak>
+			</TweakGroup>
+			<TweakGroup name="UAC">
+				<Tweak name="ConsentPromptBehaviorUser">1</Tweak>
+			</TweakGroup>
+			<TweakGroup name="Windows">
+				<Tweak name="DisableATMFD">1</Tweak>
+				<Tweak name="Manual">1</Tweak>
+			</TweakGroup>
+			<TweakGroup name="WindowsDefender">
+				<Tweak name="DisableAntiSpyware">1</Tweak>
+			</TweakGroup>
+			<TweakGroup name="MetroTweaks">
+				<Tweak name="DisableWindowsConsumerFeatures">1</Tweak>
+			</TweakGroup>
+			<TweakGroup name="WindowsUpdate">
+				<Tweak name="DODownloadMode">100</Tweak>
+				<Tweak name="AUOptions">2</Tweak>
+			</TweakGroup>
+		</Machine>
+		<Users>
+			<TweakGroup name="AppCompat">
+				<Tweak name="DisablePCA">1</Tweak>
+			</TweakGroup>
+			<TweakGroup name="DesktopTweaks">
+				<Tweak name="ScreenSaverIsSecure">0</Tweak>
+			</TweakGroup>
+			<TweakGroup name="Explorer">
+				<Tweak name="NoDriveTypeAutoRun">255</Tweak>
+				<Tweak name="ShowInfoTip">0</Tweak>
+				<Tweak name="FolderContentsInfoTip">0</Tweak>
+				<Tweak name="EnableBalloonTips">0</Tweak>
+				<Tweak name="StartButtonBalloonTip">0</Tweak>
+				<Tweak name="NoThumbnailCache">1</Tweak>
+				<Tweak name="ClearRecentDocsOnExit">1</Tweak>
+				<Tweak name="NoRecentDocsHistory">1</Tweak>
+				<Tweak name="NavPaneShowAllFolders">0</Tweak>
+				<Tweak name="PhotoViewer.FileAssoc.Tiff">PhotoViewer.FileAssoc.Tiff</Tweak>
+				<Tweak name="ShowSyncProviderNotifications">0</Tweak>
+				<Tweak name="ShowTaskViewButton">0</Tweak>
+				<Tweak name="TaskbarGlomLevel">1</Tweak>
+				<Tweak name="TaskbarSmallIcons">1</Tweak>
+				<Tweak name="HideDrivesWithNoMedia">0</Tweak>
+				<Tweak name="HideFileExt">0</Tweak>
+				<Tweak name="Hidden">1</Tweak>
+				<Tweak name="ShowSuperHidden">1</Tweak>
+			</TweakGroup>
+			<TweakGroup name="Privacy">
+				<Tweak name="HarvestContacts">0</Tweak>
+				<Tweak name="RestrictImplicitTextCollection">1</Tweak>
+				<Tweak name="RestrictImplicitInkCollection">1</Tweak>
+				<Tweak name="AdvertisingInfo">0</Tweak>
+				<Tweak name="AcceptedPrivacyPolicy">0</Tweak>
+				<Tweak name="TIPC">0</Tweak>
+				<Tweak name="EnableWebContentEvaluation">0</Tweak>
+				<Tweak name="Enabledv9">0</Tweak>
+			</TweakGroup>
+		</Users>
+		<Services>
+			<TweakGroup name="services">
+				<Tweak name="service_PimIndexMaintenanceSvc">4</Tweak>
+				<Tweak name="service_DoSvc">4</Tweak>
+				<Tweak name="service_DPS">4</Tweak>
+				<Tweak name="service_WdiServiceHost">4</Tweak>
+				<Tweak name="service_WdiSystemHost">4</Tweak>
+				<Tweak name="service_diagnosticshub.standardcollector.service">4</Tweak>
+				<Tweak name="service_NaturalAuthentication">4</Tweak>
+				<Tweak name="service_SEMgrSvc">4</Tweak>
+				<Tweak name="service_icssvc">4</Tweak>
+				<Tweak name="service_spectrum">4</Tweak>
+			</TweakGroup>
+		</Services>
+	</Tweaks>
+	<ApplyOptions>
+		<ImageTasks>
+			<Task>imageSaveTrim</Task>
+			<Task>imageFormatEsd</Task>
+			<Task>imageOptionsCreateIso</Task>
+		</ImageTasks>
+		<AutoIsoFile>V:\Source\Windows10-TGSpin\Output\Win10-TeamGnome-b009.iso</AutoIsoFile>
+		<AutoIsoLabel>CENA_X64FREV_EN-US_DV5</AutoIsoLabel>
+		<AutoSplitSize>4000</AutoSplitSize>
+		<CleanHotfixedLeftovers>false</CleanHotfixedLeftovers>
+		<SealFeatures>false</SealFeatures>
+		<ReuseDriverCache>false</ReuseDriverCache>
+	</ApplyOptions>
+	<Execution>
+		<Add>
+			<Item type="Command">
+				<Path>powercfg</Path>
+				<Params>-h off</Params>
+				<Index>0</Index>
+			</Item>
+			<Item type="Command">
+				<Path>bcdedit</Path>
+				<Params>/set nx Optout</Params>
+				<Index>1</Index>
+			</Item>
+			<Item type="Command">
+				<Path>bcdedit</Path>
+				<Params>/set bootmenupolicy Legacy</Params>
+				<Index>2</Index>
+			</Item>
+			<Item type="Command">
+				<Path>bcdedit</Path>
+				<Params>/set quietboot on</Params>
+				<Index>3</Index>
+			</Item>
+			<Item type="Command">
+				<Path>bcdedit</Path>
+				<Params>/set {globalsettings} custom:16000067 true</Params>
+				<Index>4</Index>
+			</Item>
+			<Item type="Command">
+				<Path>bcdedit</Path>
+				<Params>/set {globalsettings} custom:16000069 true</Params>
+				<Index>5</Index>
+			</Item>
+			<Item type="File">
+				<Path>V:\Source\Windows10-TGSpin\UtilitiesForIntegration\7z1604-x64.msi</Path>
+				<Params>/quiet /norestart</Params>
+				<Index>6</Index>
+			</Item>
+			<Item type="File">
+				<Path>V:\Source\Windows10-TGSpin\UtilitiesForIntegration\vcredist_vs2005sp1_x64.EXE</Path>
+				<Params>/Q</Params>
+				<Index>7</Index>
+			</Item>
+			<Item type="File">
+				<Path>V:\Source\Windows10-TGSpin\UtilitiesForIntegration\vcredist_vs2005sp1_x86.EXE</Path>
+				<Params>/Q</Params>
+				<Index>8</Index>
+			</Item>
+			<Item type="File">
+				<Path>V:\Source\Windows10-TGSpin\UtilitiesForIntegration\HardLinkShellExt_X64.exe</Path>
+				<Params>/S</Params>
+				<Index>9</Index>
+			</Item>
+			<Item type="File">
+				<Path>V:\Source\Windows10-TGSpin\UtilitiesForIntegration\Notepad2-mod.4.2.25.985.exe</Path>
+				<Params>/VERYSILENT</Params>
+				<Index>10</Index>
+			</Item>
+			<Item type="File">
+				<Path>V:\Source\Windows10-TGSpin\UtilitiesForIntegration\TeamGnome.Oobe.exe</Path>
+				<Params></Params>
+				<Index>11</Index>
+			</Item>
+		</Add>
+		<Change></Change>
+		<Remove></Remove>
+	</Execution>
+	<Registry>
+		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\DisableAdminShares.reg</Item>
+		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\HideWindowsUpdateAd.reg</Item>
+		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\TelemetryKillSwitch.reg</Item>
+		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\ReducedMenuDelay.reg</Item>
+		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\RemoveExtractAllFromContext.reg</Item>
+		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\HideInsiderPageInSettings.reg</Item>
+		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\MicrosoftEdgePolicies.reg</Item>
+		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\CortanaPrivacySettings.reg</Item>
+		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\DisableSnapAssist.reg</Item>
+		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\DisableLockscreen.reg</Item>
+		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\DisableDeliveryOptimization.reg</Item>
+		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\EnableLongPaths.reg</Item>
+		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\EnableVerbose.reg</Item>
+		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\LaunchExplorerToThisPC.reg</Item>
+		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\PaintDesktopVersion.reg</Item>
+		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\DisableCloudContent.reg</Item>
+		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\SkipMachineOOBE.reg</Item>
+		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\ToggleCommandPowershell.reg</Item>
+		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\HidePenWorkspaceButton.reg</Item>
+	</Registry>
+</Preset>
