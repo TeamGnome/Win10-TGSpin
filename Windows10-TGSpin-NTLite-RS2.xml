@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>04/02/2017 16:48</Date>
+	<Date>04/04/2017 22:29</Date>
 	<AppInfo>
 		<Version>1.3.0.4944</Version>
 		<Licensed>Yes</Licensed>
@@ -12,14 +12,15 @@
 		<GUID>{5B33F52B-1BC0-4F57-BDF1-E638CA232590}</GUID>
 	</ImageInfo>
 	<RemoveComponents>
-		<c>1527c705-839a-4832-9118-54d4Bd6a0c89</c>
 		<c>accessibility 'Accessibility tools'</c>
 		<c>actioncenter 'Action Center'</c>
+		<c>adamclient 'Active Directory Lightweight Directory Services (AD LDS)'</c>
 		<c>alljoyn 'AllJoyn Router Service'</c>
 		<c>appid 'Application Identity Service'</c>
 		<c>appv 'Application Virtualization (App-V)'</c>
 		<c>asimov 'Unified Telemetry Client (Asimov)'</c>
 		<c>assembly.net '.NET assembly cache'</c>
+		<c>autoplay</c>
 		<c>axinstall 'ActiveX Installer Service'</c>
 		<c>biometricservice 'Windows Biometric Service'</c>
 		<c>branchcacheclient 'BranchCache Client'</c>
@@ -28,26 +29,25 @@
 		<c>ceip 'CEIP (SQM)'</c>
 		<c>CortanaListenUIApp</c>
 		<c>dashost 'Device Association Service'</c>
+		<c>datacenterbridging 'Data Center Bridging (DCB)'</c>
 		<c>DesktopLearning</c>
 		<c>DesktopView</c>
 		<c>devicemanagement 'Device Management'</c>
 		<c>devicesync 'Microsoft Sync Framework'</c>
 		<c>diskdiagnosis 'Disk failure diagnostics'</c>
 		<c>diskquota 'Disk Quota'</c>
+		<c>displayswitch 'Display Switch'</c>
 		<c>dmwappushsvc 'WAP Push Message Routing Service (dmwappushsvc)'</c>
 		<c>driver_c_61883.inf</c>
 		<c>driver_c_barcodescanner.inf</c>
 		<c>driver_c_cashdrawer.inf</c>
 		<c>driver_c_dot4.inf</c>
-		<c>driver_c_dot4print.inf</c>
 		<c>driver_c_fdc.inf</c>
 		<c>driver_c_floppydisk.inf</c>
 		<c>driver_c_infrared.inf</c>
 		<c>driver_c_linedisplay.inf</c>
 		<c>driver_c_magneticstripereader.inf</c>
 		<c>driver_c_modem.inf</c>
-		<c>driver_c_pnpprinters.inf</c>
-		<c>driver_c_printer.inf</c>
 		<c>driver_c_receiptprinter.inf</c>
 		<c>driver_c_sensor.inf</c>
 		<c>driver_c_tapedrive.inf</c>
@@ -199,50 +199,7 @@
 		<c>driver_mdmzyxel.inf</c>
 		<c>driver_mdmzyxlg.inf</c>
 		<c>driver_modemcsa.inf</c>
-		<c>driver_ntprint.inf</c>
-		<c>driver_ntprint4.inf</c>
 		<c>driver_oposdrv.inf</c>
-		<c>driver_printqueue.inf</c>
-		<c>driver_prnbrcl1.inf</c>
-		<c>driver_prncacl1.inf</c>
-		<c>driver_prncacl2.inf</c>
-		<c>driver_prncacla.inf</c>
-		<c>driver_prndlcl1.inf</c>
-		<c>driver_prndlclf.inf</c>
-		<c>driver_prndlclv.inf</c>
-		<c>driver_prndlclw.inf</c>
-		<c>driver_prnekcl2.inf</c>
-		<c>driver_prnepcl2.inf</c>
-		<c>driver_prnfxcl2.inf</c>
-		<c>driver_prnge001.inf</c>
-		<c>driver_prngeclv.inf</c>
-		<c>driver_prnhpcl1.inf</c>
-		<c>driver_prnhpcl2.inf</c>
-		<c>driver_prnhpcl3.inf</c>
-		<c>driver_prnhpcl4.inf</c>
-		<c>driver_prnhpcl5.inf</c>
-		<c>driver_prnkmcl2.inf</c>
-		<c>driver_prnkmcl4.inf</c>
-		<c>driver_prnkycl1.inf</c>
-		<c>driver_prnlxclv.inf</c>
-		<c>driver_prnlxclw.inf</c>
-		<c>driver_prnms002.inf</c>
-		<c>driver_prnms003.inf</c>
-		<c>driver_prnms004.inf</c>
-		<c>driver_prnms005.inf</c>
-		<c>driver_prnms007.inf</c>
-		<c>driver_prnms008.inf</c>
-		<c>driver_prnms010.inf</c>
-		<c>driver_prnms011.inf</c>
-		<c>driver_prnnecl2.inf</c>
-		<c>driver_prnokcl1.inf</c>
-		<c>driver_prnokcl2.inf</c>
-		<c>driver_prnrccl1.inf</c>
-		<c>driver_prnsacl1.inf</c>
-		<c>driver_prntscl2.inf</c>
-		<c>driver_prntscl3.inf</c>
-		<c>driver_prnxxcl3.inf</c>
-		<c>driver_prnxxcl4.inf</c>
 		<c>driver_rawsilo.inf</c>
 		<c>driver_remoteposdrv.inf</c>
 		<c>driver_sensorsalsdriver.inf</c>
@@ -250,9 +207,7 @@
 		<c>driver_sensorsservicedriver.inf</c>
 		<c>driver_tape.inf</c>
 		<c>driver_usbcir.inf</c>
-		<c>driver_wsdprint.inf</c>
 		<c>dvdplay 'DVD Play'</c>
-		<c>E2A4F912-2574-4A75-9BB0-0D023378592B</c>
 		<c>easeofaccessthemes 'Ease Of Access Themes'</c>
 		<c>eicfg 'Edition configuration file (EI.cfg)'</c>
 		<c>embeddedexperience 'Device Lockdown (Embedded Experience)'</c>
@@ -282,7 +237,6 @@
 		<c>hwsupport_internetprintingclient 'Internet Printing Client'</c>
 		<c>hwsupport_modem 'Modem'</c>
 		<c>hwsupport_modemsettings 'Shared modem settings (mdmgl*.inf)'</c>
-		<c>hwsupport_printer 'Printing'</c>
 		<c>hwsupport_scanner 'Scanner'</c>
 		<c>hwsupport_telephony 'Telephony'</c>
 		<c>hwsupport_tv 'TV Tuner codecs and support'</c>
@@ -290,6 +244,7 @@
 		<c>indeo 'Intel Indeo Codecs'</c>
 		<c>insiderhub 'Windows Insider Hub'</c>
 		<c>internetexplorerfeature 'Internet Explorer Feature (UI)'</c>
+		<c>isoburn 'Windows Disc Image Burning Tool'</c>
 		<c>kerneldebug 'Kernel Debugging'</c>
 		<c>killbits 'ActiveX Compatibility Flags (Killbits)'</c>
 		<c>legacycomponents 'Legacy components'</c>
@@ -319,6 +274,7 @@
 		<c>Microsoft.Office.OneNote</c>
 		<c>Microsoft.OneConnect</c>
 		<c>Microsoft.People</c>
+		<c>Microsoft.PPIProjection</c>
 		<c>Microsoft.SkypeApp</c>
 		<c>Microsoft.Wallet</c>
 		<c>Microsoft.Windows.Apprep.ChxApp</c>
@@ -333,7 +289,6 @@
 		<c>Microsoft.Windows.SecHealthUI</c>
 		<c>Microsoft.Windows.SecondaryTileExperience</c>
 		<c>Microsoft.Windows.SecureAssessmentBrowser</c>
-		<c>Microsoft.Windows.WindowPicker</c>
 		<c>Microsoft.WindowsAlarms</c>
 		<c>Microsoft.WindowsCalculator</c>
 		<c>Microsoft.WindowsCamera</c>
@@ -361,8 +316,8 @@
 		<c>otherthemes 'Other Themes'</c>
 		<c>pdfreader 'Windows Reader (PDF)'</c>
 		<c>peertopeer 'Peer Networking'</c>
+		<c>perfmon 'Performance Monitor'</c>
 		<c>pos 'Point of Service (POS)'</c>
-		<c>printtopdf 'Print to PDF'</c>
 		<c>provisioning 'Windows Provisioning'</c>
 		<c>rasauto 'Remote Access Auto Connection Manager'</c>
 		<c>reliabilityanalysis 'Reliability Analysis Services'</c>
@@ -370,7 +325,6 @@
 		<c>remoteregistry 'Remote Registry'</c>
 		<c>retaildemo 'Retail Demo Content'</c>
 		<c>rightsmanagement 'Rights Management support'</c>
-		<c>rmsvc 'Radio Management and Airplane Mode Service'</c>
 		<c>screensavers</c>
 		<c>search 'Windows Search'</c>
 		<c>secedit 'Local Security Policy Editor'</c>
@@ -384,6 +338,7 @@
 		<c>smartscreen</c>
 		<c>smsrouter 'SMS Router Service'</c>
 		<c>snmp 'Simple Network Management Protocol (SNMP)'</c>
+		<c>soundthemes 'Sound Themes'</c>
 		<c>sourcessxsdir 'Manual feature repository'</c>
 		<c>speechcommon 'Speech Recognition'</c>
 		<c>speechtts 'Speech TTS'</c>
@@ -395,6 +350,7 @@
 		<c>telnetclient 'Telnet Client'</c>
 		<c>tempcache 'Cache and temp files'</c>
 		<c>tftpclient 'TFTP client'</c>
+		<c>trkwks 'Distributed Link Tracking Client'</c>
 		<c>uev 'User Experience Virtualization (UE-V)'</c>
 		<c>ui0detect 'Interactive Services Detection'</c>
 		<c>vcmcodecs 'Video Compression Manager (VCM) codecs'</c>
@@ -402,13 +358,11 @@
 		<c>wallet 'Wallet Service'</c>
 		<c>wallpaperdefault 'Wallpaper (Default)'</c>
 		<c>wallpapers 'Wallpapers (Themes)'</c>
-		<c>wcmsvc 'Windows Connection Manager'</c>
 		<c>wcn 'Windows Connect Now (WCN)'</c>
 		<c>webcamexperience 'Webcam Experience'</c>
 		<c>webclient</c>
 		<c>wifinetworkmanager 'Wi-Fi Network Manager (Wi-Fi Sense)'</c>
 		<c>Windows.ContactSupport</c>
-		<c>Windows.PrintDialog</c>
 		<c>windowsdefender 'Windows Defender'</c>
 		<c>winocr 'Windows TIFF IFilter (OCR)'</c>
 		<c>winre 'Windows Recovery'</c>
@@ -424,8 +378,8 @@
 			<Feature enabled="no">ManualSetup</Feature>
 			<Feature enabled="no">OfficeSupport</Feature>
 			<Feature enabled="no">NetworkDiscovery</Feature>
-			<Feature enabled="yes">OOBE</Feature>
-			<Feature enabled="no">Printing</Feature>
+			<Feature enabled="no">OOBE</Feature>
+			<Feature enabled="yes">Printing</Feature>
 			<Feature enabled="yes">Recommended-All</Feature>
 			<Feature enabled="no">Recommended-Tablet</Feature>
 			<Feature enabled="yes">USB</Feature>
@@ -446,13 +400,19 @@
 		</MachineDrivers>
 	</Compatibility>
 	<Features>
+		<Feature name="Printing-PrintToPDFServices-Features">false</Feature>
+		<Feature name="Printing-XPSServices-Features">false</Feature>
+		<Feature name="Printing-Foundation-Features">false</Feature>
 		<Feature name="SMB1Protocol">false</Feature>
 		<Feature name="SmbDirect">true</Feature>
+		<Feature name="MicrosoftWindowsPowerShellV2Root">false</Feature>
+		<Feature name="MicrosoftWindowsPowerShellV2">false</Feature>
+		<Feature name="Xps-Foundation-Xps-Viewer">false</Feature>
 	</Features>
 	<AddPackages>
 		<Package>V:\Source\Windows10-TGSpin\Packages\Microsoft-Windows-win32calc-Package~31bf3856ad364e35~amd64~~10.0.15063.0.cab</Package>
 		<Package>V:\Source\Windows10-TGSpin\Packages\Microsoft-Windows-win32calc-Package~31bf3856ad364e35~amd64~en-US~10.0.15063.0.cab</Package>
-		<Package>V:\Source\Windows10-TGSpin\Updates\Windows10.0-KB4016250-x64.cab</Package>
+		<Package>V:\Source\Windows10-TGSpin\Updates\Windows10.0-KB4016252-x64.cab</Package>
 	</AddPackages>
 	<Drivers showHidden="true">
 		<AddDrivers></AddDrivers>
@@ -589,7 +549,7 @@
 				<Tweak name="ClearRecentDocsOnExit">1</Tweak>
 				<Tweak name="NoRecentDocsHistory">1</Tweak>
 				<Tweak name="NavPaneShowAllFolders">0</Tweak>
-				<Tweak name="PhotoViewer.FileAssoc.Tiff">PhotoViewer.FileAssoc.Tiff</Tweak>
+				<Tweak name="PhotoViewer.FileAssoc.Tiff">User - System</Tweak>
 				<Tweak name="ShowSyncProviderNotifications">0</Tweak>
 				<Tweak name="ShowTaskViewButton">0</Tweak>
 				<Tweak name="TaskbarGlomLevel">1</Tweak>
@@ -620,8 +580,11 @@
 				<Tweak name="service_diagnosticshub.standardcollector.service">4</Tweak>
 				<Tweak name="service_NaturalAuthentication">4</Tweak>
 				<Tweak name="service_SEMgrSvc">4</Tweak>
+				<Tweak name="service_SecurityHealthService">4</Tweak>
 				<Tweak name="service_icssvc">4</Tweak>
 				<Tweak name="service_spectrum">4</Tweak>
+				<Tweak name="service_WpnService">4</Tweak>
+				<Tweak name="service_WpnUserService">4</Tweak>
 			</TweakGroup>
 		</Services>
 	</Tweaks>
@@ -631,7 +594,7 @@
 			<Task>imageFormatEsd</Task>
 			<Task>imageOptionsCreateIso</Task>
 		</ImageTasks>
-		<AutoIsoFile>V:\Source\Windows10-TGSpin\Output\Win10-TeamGnome-b009.iso</AutoIsoFile>
+		<AutoIsoFile>V:\Source\Windows10-TGSpin\Output\Win10-TeamGnome-b010.iso</AutoIsoFile>
 		<AutoIsoLabel>CENA_X64FREV_EN-US_DV5</AutoIsoLabel>
 		<AutoSplitSize>4000</AutoSplitSize>
 		<CleanHotfixedLeftovers>false</CleanHotfixedLeftovers>
@@ -676,16 +639,6 @@
 				<Index>6</Index>
 			</Item>
 			<Item type="File">
-				<Path>V:\Source\Windows10-TGSpin\UtilitiesForIntegration\vcredist_vs2005sp1_x64.EXE</Path>
-				<Params>/Q</Params>
-				<Index>7</Index>
-			</Item>
-			<Item type="File">
-				<Path>V:\Source\Windows10-TGSpin\UtilitiesForIntegration\vcredist_vs2005sp1_x86.EXE</Path>
-				<Params>/Q</Params>
-				<Index>8</Index>
-			</Item>
-			<Item type="File">
 				<Path>V:\Source\Windows10-TGSpin\UtilitiesForIntegration\HardLinkShellExt_X64.exe</Path>
 				<Params>/S</Params>
 				<Index>9</Index>
@@ -700,6 +653,16 @@
 				<Params></Params>
 				<Index>11</Index>
 			</Item>
+			<Item type="File">
+				<Path>V:\Source\Windows10-TGSpin\UtilitiesForIntegration\vcredist_vs2005sp1_x64.EXE</Path>
+				<Params>/Q</Params>
+				<Index>7</Index>
+			</Item>
+			<Item type="File">
+				<Path>V:\Source\Windows10-TGSpin\UtilitiesForIntegration\vcredist_vs2005sp1_x86.EXE</Path>
+				<Params>/Q</Params>
+				<Index>8</Index>
+			</Item>
 		</Add>
 		<Change></Change>
 		<Remove></Remove>
@@ -707,12 +670,10 @@
 	<Registry>
 		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\DisableAdminShares.reg</Item>
 		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\HideWindowsUpdateAd.reg</Item>
-		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\TelemetryKillSwitch.reg</Item>
 		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\ReducedMenuDelay.reg</Item>
 		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\RemoveExtractAllFromContext.reg</Item>
 		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\HideInsiderPageInSettings.reg</Item>
 		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\MicrosoftEdgePolicies.reg</Item>
-		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\CortanaPrivacySettings.reg</Item>
 		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\DisableSnapAssist.reg</Item>
 		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\DisableLockscreen.reg</Item>
 		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\DisableDeliveryOptimization.reg</Item>
@@ -722,7 +683,13 @@
 		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\PaintDesktopVersion.reg</Item>
 		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\DisableCloudContent.reg</Item>
 		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\SkipMachineOOBE.reg</Item>
-		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\ToggleCommandPowershell.reg</Item>
 		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\HidePenWorkspaceButton.reg</Item>
+		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\TelemetryKillSwitch.reg</Item>
+		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\WindowsPhotoViewerWin10-Lite.reg</Item>
+		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\CortanaPrivacySettings.reg</Item>
+		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\NoBlocksForDownloads.reg</Item>
+		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\NoStoreLookupsForUnknownExtensions.reg</Item>
+		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\DisablePersonalisedAds.reg</Item>
+		<Item>V:\Source\Windows10-TGSpin\RegistryEntries\DisableFeedbackRequests.reg</Item>
 	</Registry>
 </Preset>

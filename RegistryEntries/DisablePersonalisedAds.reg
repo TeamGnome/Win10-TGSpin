@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+;Turn off personalized advertising
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\AdvertisingInfo]
+"Enabled"=dword:00000000

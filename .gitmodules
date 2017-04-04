@@ -1,0 +1,3 @@
+[submodule "Custom Components/TeamGnome.Oobe"]
+	path = Custom Components/TeamGnome.Oobe
+	url = https://github.com/TeamGnome/TGSpin-OOBE
