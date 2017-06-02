@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
-	<Date>04/13/2017 10:14</Date>
+	<Date>06/02/2017 18:46</Date>
 	<AppInfo>
-		<Version>1.3.0.4984</Version>
+		<Version>1.3.1.5060</Version>
 		<Licensed>Yes</Licensed>
 		<Protections>Yes</Protections>
-		<Host>Windows Server 2016 Datacenter 64-bit - Server 10.0.14393.1066 (en-US) - en-US</Host>
+		<Host>Windows Server 2016 Datacenter 64-bit - Server 10.0.14393.1198 (en-US) - en-US</Host>
 	</AppInfo>
 	<ImageInfo>
 		<Version mode="offline">Windows 10 Enterprise 64-bit - Client 10.0.15063.0 (en-US)</Version>
@@ -254,7 +254,7 @@
 		<c>manualsetup 'Manual Setup'</c>
 		<c>mediaplayer 'Windows Media Player'</c>
 		<c>mediaplayernetworksharing 'WMP Network Sharing Service'</c>
-		<c>mediastreaming 'Windows Media Streaming'</c>
+		<c>mediastreaming 'Media Streaming'</c>
 		<c>messagingsvc 'Messaging Service'</c>
 		<c>Microsoft.3DBuilder '3DBuilder'</c>
 		<c>Microsoft.Advertising.Xaml 'Advertising.Xaml'</c>
@@ -268,7 +268,7 @@
 		<c>Microsoft.MicrosoftOfficeHub 'MicrosoftOfficeHub'</c>
 		<c>Microsoft.MicrosoftSolitaireCollection 'MicrosoftSolitaireCollection'</c>
 		<c>Microsoft.MicrosoftStickyNotes 'MicrosoftStickyNotes'</c>
-		<c>Microsoft.MSPaint 'MSPaint'</c>
+		<c>Microsoft.MSPaint 'Paint 3D'</c>
 		<c>Microsoft.Office.OneNote 'Office.OneNote'</c>
 		<c>Microsoft.OneConnect 'OneConnect'</c>
 		<c>Microsoft.People 'People'</c>
@@ -294,13 +294,14 @@
 		<c>Microsoft.WindowsFeedbackHub 'WindowsFeedbackHub'</c>
 		<c>Microsoft.WindowsMaps 'WindowsMaps'</c>
 		<c>Microsoft.WindowsSoundRecorder 'WindowsSoundRecorder'</c>
-		<c>Microsoft.XboxApp 'XboxApp'</c>
+		<c>Microsoft.XboxApp 'Xbox App'</c>
 		<c>Microsoft.XboxGameCallableUI 'XboxGameCallableUI'</c>
 		<c>Microsoft.XboxGameOverlay 'XboxGameOverlay'</c>
 		<c>Microsoft.XboxSpeechToTextOverlay 'XboxSpeechToTextOverlay'</c>
 		<c>Microsoft.ZuneMusic 'ZuneMusic'</c>
 		<c>Microsoft.ZuneVideo 'ZuneVideo'</c>
 		<c>migwiz 'Easy Transfer'</c>
+		<c>mixedreality 'Windows Mixed Reality'</c>
 		<c>mobiledevicemanagement 'Mobile Device Management (MDM)'</c>
 		<c>mobilepc</c>
 		<c>mobilepc_networkprojection 'Network Projection'</c>
@@ -378,6 +379,7 @@
 			<Feature enabled="no">OOBE</Feature>
 			<Feature enabled="no">Printing</Feature>
 			<Feature enabled="yes">Recommended-All</Feature>
+			<Feature enabled="no">SamsungSwitch</Feature>
 			<Feature enabled="no">Recommended-Tablet</Feature>
 			<Feature enabled="yes">USB</Feature>
 			<Feature enabled="no">USBModem</Feature>
@@ -408,7 +410,7 @@
 	<AddPackages>
 		<Package>V:\Source\Windows10-TGSpin\Packages\Microsoft-Windows-win32calc-Package~31bf3856ad364e35~amd64~~10.0.15063.0.cab</Package>
 		<Package>V:\Source\Windows10-TGSpin\Packages\Microsoft-Windows-win32calc-Package~31bf3856ad364e35~amd64~en-US~10.0.15063.0.cab</Package>
-		<Package>V:\Source\Windows10-TGSpin\Updates\Windows10.0-KB4015583-x64.msu</Package>
+		<Package>V:\Source\Windows10-TGSpin\Updates\Windows10.0-KB4020102-x64.msu</Package>
 	</AddPackages>
 	<Drivers showHidden="true">
 		<AddDrivers></AddDrivers>
@@ -479,9 +481,6 @@
 			<TweakGroup name="CrashControl">
 				<Tweak name="CrashDumpEnabled">0</Tweak>
 			</TweakGroup>
-			<TweakGroup name="Explorer">
-				<Tweak name="NoDriveTypeAutoRun">255</Tweak>
-			</TweakGroup>
 			<TweakGroup name="Network">
 				<Tweak name="NewNetworkWindowOff">1</Tweak>
 			</TweakGroup>
@@ -494,12 +493,13 @@
 			<TweakGroup name="Privacy">
 				<Tweak name="AllowExperimentation">0</Tweak>
 				<Tweak name="AllowLocation">0</Tweak>
-				<Tweak name="AllowTelemetry">1</Tweak>
+				<Tweak name="AllowTelemetry">0</Tweak>
 				<Tweak name="PaidWifi">0</Tweak>
 				<Tweak name="WiFiSenseOpen">0</Tweak>
 				<Tweak name="UserAuthPolicy">0</Tweak>
 				<Tweak name="BluetoothPolicy">0</Tweak>
 				<Tweak name="Skype-UserConsentAccepted">0</Tweak>
+				<Tweak name="OsuRegistrationStatus">0</Tweak>
 				<Tweak name="FPEnabled">0</Tweak>
 				<Tweak name="Enabledv9">0</Tweak>
 				<Tweak name="SmartScreenEnabled">Off</Tweak>
@@ -516,6 +516,7 @@
 			<TweakGroup name="Windows">
 				<Tweak name="DisableATMFD">1</Tweak>
 				<Tweak name="Manual">1</Tweak>
+				<Tweak name="DisableWindowsConsumerFeatures">1</Tweak>
 			</TweakGroup>
 			<TweakGroup name="WindowsDefender">
 				<Tweak name="DisableAntiSpyware">1</Tweak>
@@ -557,10 +558,16 @@
 				<Tweak name="RestrictImplicitTextCollection">1</Tweak>
 				<Tweak name="RestrictImplicitInkCollection">1</Tweak>
 				<Tweak name="AdvertisingInfo">0</Tweak>
+				<Tweak name="TailoredExperiencesWithDiagnosticDataEnabled">0</Tweak>
+				<Tweak name="Start_TrackProgs">0</Tweak>
+				<Tweak name="SystemPaneSuggestionsEnabled">0</Tweak>
 				<Tweak name="AcceptedPrivacyPolicy">0</Tweak>
+				<Tweak name="PreInstalledAppsEnabled">0</Tweak>
+				<Tweak name="OemPreInstalledAppsEnabled">0</Tweak>
 				<Tweak name="TIPC">0</Tweak>
 				<Tweak name="EnableWebContentEvaluation">0</Tweak>
 				<Tweak name="Enabledv9">0</Tweak>
+				<Tweak name="RotatingLockScreenEnabled">0</Tweak>
 			</TweakGroup>
 		</Users>
 		<Services>
@@ -626,11 +633,6 @@
 				<Index>5</Index>
 			</Item>
 			<Item type="File">
-				<Path>V:\Source\Windows10-TGSpin\UtilitiesForIntegration\7z1604-x64.msi</Path>
-				<Params>/quiet /norestart</Params>
-				<Index>6</Index>
-			</Item>
-			<Item type="File">
 				<Path>V:\Source\Windows10-TGSpin\UtilitiesForIntegration\HardLinkShellExt_X64.exe</Path>
 				<Params>/S</Params>
 				<Index>9</Index>
@@ -654,6 +656,11 @@
 				<Path>V:\Source\Windows10-TGSpin\UtilitiesForIntegration\vcredist_vs2005sp1_x86.EXE</Path>
 				<Params>/Q</Params>
 				<Index>8</Index>
+			</Item>
+			<Item type="File">
+				<Path>V:\Source\Windows10-TGSpin\UtilitiesForIntegration\7z1700-x64.msi</Path>
+				<Params>/quiet /norestart</Params>
+				<Index>6</Index>
 			</Item>
 		</Add>
 		<Change></Change>
